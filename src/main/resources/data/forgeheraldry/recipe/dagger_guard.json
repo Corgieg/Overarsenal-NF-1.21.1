@@ -1,0 +1,19 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "n": {
+      "item": "overgeared:steel_nugget"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "nn"
+  ],
+  "result": {
+    "count": 1,
+    "item": "forgeheraldry:dagger_guard"
+  },
+  "show_notification": false
+}
