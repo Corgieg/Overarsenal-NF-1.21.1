@@ -42,11 +42,13 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="Corgieg and SmokeytheFireBreathingDragon"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+A compatability mod that integrates Knights & Heraldry weapons into Overgeard's crafting system.
+
+For 1.21.1 and NeoForge only.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
