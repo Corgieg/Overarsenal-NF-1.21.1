@@ -1,0 +1,19 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:steel_knife_blade"
+    },
+    {
+      "item": "forgeheraldry:dagger_guard"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:dagger"
+  }
+}
