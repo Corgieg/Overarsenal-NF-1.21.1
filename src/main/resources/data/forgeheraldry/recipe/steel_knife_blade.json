@@ -4,12 +4,15 @@
   "hammering": 3,
   "key": {
     "n": {
-      "item": "overgeared:steel_nugget"
+      "item": "forgeheraldry:heated_steel_nugget"
+    },
+    "i": {
+      "item": "overgeared:heated_steel_ingot"
     }
   },
   "pattern": [
     "n",
-    "n"
+    "i"
   ],
   "result": {
     "count": 1,

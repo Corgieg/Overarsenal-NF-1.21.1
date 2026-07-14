@@ -66,6 +66,7 @@ public class ForgeHeraldry {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.HEATED_STEEL_NUGGET);
             event.accept(ModItems.STEEL_KNIFE_BLADE);
             event.accept(ModItems.DAGGER_GUARD);
         }

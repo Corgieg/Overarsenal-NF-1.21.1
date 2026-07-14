@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "forgeheraldry:item/heated_steel_nugget"
+  }
+}

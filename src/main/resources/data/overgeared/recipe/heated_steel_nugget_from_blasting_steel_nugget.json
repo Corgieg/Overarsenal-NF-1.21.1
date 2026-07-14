@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.0,
+  "group": "steel_nugget",
+  "ingredient": {
+    "tag": "c:nuggets/steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "forgeheraldry:heated_steel_nugget"
+  }
+}

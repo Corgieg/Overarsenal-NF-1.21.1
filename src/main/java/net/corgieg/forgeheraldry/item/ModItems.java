@@ -9,6 +9,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ForgeHeraldry.MODID);
 
+    public static final DeferredItem<Item> HEATED_STEEL_NUGGET = ITEMS.register("heated_steel_nugget",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_KNIFE_BLADE = ITEMS.register("steel_knife_blade",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DAGGER_GUARD = ITEMS.register("dagger_guard",
