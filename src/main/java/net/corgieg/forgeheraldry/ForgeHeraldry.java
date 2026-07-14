@@ -68,7 +68,8 @@ public class ForgeHeraldry {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.HEATED_STEEL_NUGGET);
             event.accept(ModItems.STEEL_KNIFE_BLADE);
-            event.accept(ModItems.DAGGER_GUARD);
+            event.accept(ModItems.CROSSGUARD);
+            event.accept(ModItems.CROSSGUARD_LARGE);
         }
     }
 

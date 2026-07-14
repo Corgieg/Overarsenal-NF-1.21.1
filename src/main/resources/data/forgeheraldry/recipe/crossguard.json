@@ -9,11 +9,11 @@
   },
   "need_quenching": false,
   "pattern": [
-    "nn"
+    "nnn"
   ],
   "result": {
     "count": 1,
-    "id": "forgeheraldry:dagger_guard"
+    "id": "forgeheraldry:crossguard"
   },
   "show_notification": false
 }

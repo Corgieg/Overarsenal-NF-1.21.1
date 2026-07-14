@@ -13,7 +13,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_KNIFE_BLADE = ITEMS.register("steel_knife_blade",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> DAGGER_GUARD = ITEMS.register("dagger_guard",
+    public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
