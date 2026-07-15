@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+    "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "overgeared:steel_plate"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " P ",
+    "LSL",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "forgeheraldry:pole"
+  }
+}

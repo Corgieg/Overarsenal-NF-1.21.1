@@ -1,0 +1,16 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:waraxe_head"
+    },
+    {
+      "item": "forgeheraldry:pole"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:poleaxe"
+  }
+}

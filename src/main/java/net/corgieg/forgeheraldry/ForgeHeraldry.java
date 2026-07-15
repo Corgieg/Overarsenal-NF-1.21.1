@@ -73,6 +73,7 @@ public class ForgeHeraldry {
             event.accept(ModItems.HAMMER_HEAD);
             event.accept(ModItems.MACE_HEAD);
             event.accept(ModItems.WARAXE_HEAD);
+            event.accept(ModItems.POLE);
         }
     }
 

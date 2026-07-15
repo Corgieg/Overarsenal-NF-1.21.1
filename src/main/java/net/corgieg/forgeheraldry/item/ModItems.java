@@ -23,6 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WARAXE_HEAD = ITEMS.register("waraxe_head",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POLE = ITEMS.register("pole",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

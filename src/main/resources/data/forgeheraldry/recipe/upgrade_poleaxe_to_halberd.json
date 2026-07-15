@@ -1,0 +1,17 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "knightsheraldry:poleaxe"
+    },
+    {
+      "tag": "overgeared:smithing_hammers",
+      "remainder": true,
+      "durability_decrease": 5
+    }
+  ],
+  "result": {
+    "id": "knightsheraldry:halberd"
+  }
+}
