@@ -17,6 +17,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MACE_HEAD = ITEMS.register("mace_head",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HAMMER_HEAD = ITEMS.register("hammer_head",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WARAXE_HEAD = ITEMS.register("waraxe_head",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -70,6 +70,9 @@ public class ForgeHeraldry {
             event.accept(ModItems.STEEL_KNIFE_BLADE);
             event.accept(ModItems.CROSSGUARD);
             event.accept(ModItems.CROSSGUARD_LARGE);
+            event.accept(ModItems.HAMMER_HEAD);
+            event.accept(ModItems.MACE_HEAD);
+            event.accept(ModItems.WARAXE_HEAD);
         }
     }
 
