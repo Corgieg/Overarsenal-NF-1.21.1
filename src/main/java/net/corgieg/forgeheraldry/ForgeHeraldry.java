@@ -1,5 +1,6 @@
 package net.corgieg.forgeheraldry;
 
+import net.corgieg.forgeheraldry.item.ModCreativeModeTabs;
 import net.corgieg.forgeheraldry.item.ModItems;
 import org.slf4j.Logger;
 
@@ -50,6 +51,8 @@ public class ForgeHeraldry {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -66,14 +69,7 @@ public class ForgeHeraldry {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.HEATED_STEEL_NUGGET);
-            event.accept(ModItems.STEEL_KNIFE_BLADE);
-            event.accept(ModItems.CROSSGUARD);
-            event.accept(ModItems.CROSSGUARD_LARGE);
-            event.accept(ModItems.HAMMER_HEAD);
-            event.accept(ModItems.MACE_HEAD);
-            event.accept(ModItems.WARAXE_HEAD);
-            event.accept(ModItems.POLE);
+            // Moved to its own Creative Mode Tab
         }
     }
 

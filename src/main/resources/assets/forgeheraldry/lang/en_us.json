@@ -6,5 +6,6 @@
     "item.forgeheraldry.hammer_head": "Hammer Head",
     "item.forgeheraldry.mace_head": "Mace Head",
     "item.forgeheraldry.waraxe_head": "Waraxe Head",
-    "item.forgeheraldry.pole": "Pole"
+    "item.forgeheraldry.pole": "Pole",
+    "creativetab.forgeheraldry.forge_heraldry_items" : "Forge of Heraldry"
 }
