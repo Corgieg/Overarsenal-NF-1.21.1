@@ -11,7 +11,21 @@ public class ModItems {
 
     public static final DeferredItem<Item> HEATED_STEEL_NUGGET = ITEMS.register("heated_steel_nugget",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HEATED_STEEL_ROD = ITEMS.register("heated_steel_rod",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_ROD = ITEMS.register("steel_rod",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SMITHING_JIG = ITEMS.register("smithing_jig",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_KNIFE_BLADE = ITEMS.register("steel_knife_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_STILETTO_BLADE = ITEMS.register("steel_stiletto_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_RAPIER_BLADE = ITEMS.register("steel_rapier_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_LONGSWORD_BLADE = ITEMS.register("steel_longsword_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_GREATSWORD_BLADE = ITEMS.register("steel_greatsword_blade",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
             () -> new Item(new Item.Properties()));

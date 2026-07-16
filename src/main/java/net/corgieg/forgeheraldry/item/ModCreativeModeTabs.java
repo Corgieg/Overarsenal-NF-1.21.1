@@ -19,7 +19,14 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.forgeheraldry.forge_heraldry_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HEATED_STEEL_NUGGET);
+                        output.accept(ModItems.HEATED_STEEL_ROD);
+                        output.accept(ModItems.STEEL_ROD);
+                        output.accept(ModItems.SMITHING_JIG);
                         output.accept(ModItems.STEEL_KNIFE_BLADE);
+                        output.accept(ModItems.STEEL_STILETTO_BLADE);
+                        output.accept(ModItems.STEEL_RAPIER_BLADE);
+                        output.accept(ModItems.STEEL_LONGSWORD_BLADE);
+                        output.accept(ModItems.STEEL_GREATSWORD_BLADE);
                         output.accept(ModItems.CROSSGUARD);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.MACE_HEAD);

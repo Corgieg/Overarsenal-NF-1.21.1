@@ -1,0 +1,20 @@
+{
+  "type": "overgeared:forging",
+  "category": "TOOL_HEADS",
+  "hammering": 5,
+  "key": {
+    "i": {
+      "item": "overgeared:heated_steel_ingot"
+    }
+  },
+  "pattern": [
+    "i",
+    "i",
+    "i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "forgeheraldry:steel_longsword_blade"
+  },
+  "show_notification": false
+}

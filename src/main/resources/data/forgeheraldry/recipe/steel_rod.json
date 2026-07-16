@@ -3,20 +3,18 @@
   "hammering": 3,
   "has_quality": false,
   "key": {
-    "r": {
-      "item": "forgeheraldry:steel_rod"
-    },
-    "n": {
-      "item": "overgeared:steel_nugget"
+    "i": {
+      "item": "overgeared:steel_ingot"
     }
   },
   "need_quenching": false,
   "pattern": [
-    "nrn"
+    " i",
+    "i "
   ],
   "result": {
-    "count": 1,
-    "id": "forgeheraldry:crossguard_large"
+    "count": 2,
+    "id": "forgeheraldry:steel_rod"
   },
   "show_notification": false
 }
