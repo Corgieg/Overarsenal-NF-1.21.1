@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:jig_zweihander",
+      "remainder": true
+    },
+    {
+      "item": "forgeheraldry:steel_greatsword_blade"
+    },
+    {
+      "item": "forgeheraldry:crossguard_large"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:zweihander"
+  }
+}

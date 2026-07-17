@@ -29,6 +29,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROSSGUARD_SMALL = ITEMS.register("crossguard_small",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MACE_HEAD = ITEMS.register("mace_head",
@@ -38,6 +40,18 @@ public class ModItems {
     public static final DeferredItem<Item> WARAXE_HEAD = ITEMS.register("waraxe_head",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_V_SWORD = ITEMS.register("jig_v_sword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_ARMING_SWORD = ITEMS.register("jig_arming_sword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_V_LONGSWORD = ITEMS.register("jig_v_longsword",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_CLAYMORE = ITEMS.register("jig_claymore",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_FLAMBERGE = ITEMS.register("jig_flamberge",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> JIG_ZWEIHANDER = ITEMS.register("jig_zweihander",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ForgeHeraldry.MODID);
 
     public static final Supplier<CreativeModeTab> FORGEHERALDRY_ITEMS_TAB = CREATIVE_MODE_TAB.register("forge_heraldry_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HEATED_STEEL_NUGGET.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SMITHING_JIG.get()))
                     .title(Component.translatable("creativetab.forgeheraldry.forge_heraldry_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HEATED_STEEL_NUGGET);
@@ -28,14 +28,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_LONGSWORD_BLADE);
                         output.accept(ModItems.STEEL_GREATSWORD_BLADE);
                         output.accept(ModItems.CROSSGUARD);
+                        output.accept(ModItems.CROSSGUARD_SMALL);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.MACE_HEAD);
                         output.accept(ModItems.HAMMER_HEAD);
                         output.accept(ModItems.WARAXE_HEAD);
                         output.accept(ModItems.POLE);
+                        output.accept(ModItems.JIG_V_SWORD);
+                        output.accept(ModItems.JIG_ARMING_SWORD);
+                        output.accept(ModItems.JIG_V_LONGSWORD);
+                        output.accept(ModItems.JIG_CLAYMORE);
+                        output.accept(ModItems.JIG_FLAMBERGE);
+                        output.accept(ModItems.JIG_ZWEIHANDER);
                     }).build());
 
-public static void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
     CREATIVE_MODE_TAB.register(eventBus);
 }
 

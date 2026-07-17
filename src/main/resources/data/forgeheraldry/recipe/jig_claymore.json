@@ -2,17 +2,25 @@
   "type": "overgeared:forging",
   "hammering": 5,
   "has_quality": false,
+  "needs_minigame": true,
   "key": {
-    "i": {
-      "item": "overgeared:steel_ingot"
+    "j": {
+      "item": "forgeheraldry:smithing_jig"
+    },
+    "w": {
+      "item": "knightsheraldry:greatsword"
     }
   },
   "need_quenching": false,
   "pattern": [
-    " i ",
-    "iii"
+    "j",
+    "w"
   ],
   "result": {
+    "count": 1,
+    "id": "forgeheraldry:jig_claymore"
+  },
+  "result_failed": {
     "count": 1,
     "id": "forgeheraldry:smithing_jig"
   },

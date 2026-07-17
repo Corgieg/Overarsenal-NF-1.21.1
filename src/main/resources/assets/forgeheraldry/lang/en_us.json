@@ -9,10 +9,17 @@
     "item.forgeheraldry.steel_longsword_blade": "Steel Longsword Blade",
     "item.forgeheraldry.steel_greatsword_blade": "Steel Greatsword Blade",
     "item.forgeheraldry.crossguard": "Crossguard",
+    "item.forgeheraldry.crossguard_small": "Small Crossguard",
     "item.forgeheraldry.crossguard_large": "Large Crossguard",
     "item.forgeheraldry.hammer_head": "Hammer Head",
     "item.forgeheraldry.mace_head": "Mace Head",
     "item.forgeheraldry.waraxe_head": "Waraxe Head",
     "item.forgeheraldry.pole": "Pole",
+    "item.forgeheraldry.jig_v_sword": "V-Guard Sword Jig",
+    "item.forgeheraldry.jig_arming_sword": "Arming Sword Jig",
+    "item.forgeheraldry.jig_v_longsword": "V-Guard Longsword Jig",
+    "item.forgeheraldry.jig_claymore": "Claymore Jig",
+    "item.forgeheraldry.jig_flamberge": "Flamberge Jig",
+    "item.forgeheraldry.jig_zweihander": "Zweihander Jig",
     "creativetab.forgeheraldry.forge_heraldry_items" : "Forge of Heraldry"
 }

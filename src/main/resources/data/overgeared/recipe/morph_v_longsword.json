@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:jig_v_longsword",
+      "remainder": true
+    },
+    {
+      "item": "forgeheraldry:steel_longsword_blade"
+    },
+    {
+      "item": "forgeheraldry:crossguard"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:v_longsword"
+  }
+}

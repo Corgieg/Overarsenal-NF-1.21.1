@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:jig_arming_sword",
+      "remainder": true
+    },
+    {
+      "item": "overgeared:steel_sword_blade"
+    },
+    {
+      "item": "forgeheraldry:crossguard"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:arming_sword"
+  }
+}
