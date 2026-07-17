@@ -1,6 +1,7 @@
 package net.corgieg.forgeheraldry.item;
 
 import net.corgieg.forgeheraldry.ForgeHeraldry;
+import net.corgieg.forgeheraldry.item.custom.PommelItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -53,6 +54,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> JIG_ZWEIHANDER = ITEMS.register("jig_zweihander",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POMMEL = ITEMS.register("pommel",
+            () -> new PommelItem(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

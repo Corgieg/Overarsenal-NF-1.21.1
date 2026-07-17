@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ForgeHeraldry.MODID);
 
     public static final Supplier<CreativeModeTab> FORGEHERALDRY_ITEMS_TAB = CREATIVE_MODE_TAB.register("forge_heraldry_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SMITHING_JIG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HEATED_STEEL_NUGGET.get()))
                     .title(Component.translatable("creativetab.forgeheraldry.forge_heraldry_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HEATED_STEEL_NUGGET);
@@ -40,9 +40,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.JIG_CLAYMORE);
                         output.accept(ModItems.JIG_FLAMBERGE);
                         output.accept(ModItems.JIG_ZWEIHANDER);
+                        output.accept(ModItems.POMMEL);
                     }).build());
 
-    public static void register(IEventBus eventBus) {
+public static void register(IEventBus eventBus) {
     CREATIVE_MODE_TAB.register(eventBus);
 }
 

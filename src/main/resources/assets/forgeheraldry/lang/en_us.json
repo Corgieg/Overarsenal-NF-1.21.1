@@ -21,5 +21,6 @@
     "item.forgeheraldry.jig_claymore": "Claymore Jig",
     "item.forgeheraldry.jig_flamberge": "Flamberge Jig",
     "item.forgeheraldry.jig_zweihander": "Zweihander Jig",
-    "creativetab.forgeheraldry.forge_heraldry_items" : "Forge of Heraldry"
+    "creativetab.forgeheraldry.forge_heraldry_items" : "Forge of Heraldry",
+    "item.forgeheraldry.pommel": "Pommel"
 }
