@@ -18,29 +18,35 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HEATED_STEEL_NUGGET.get()))
                     .title(Component.translatable("creativetab.forgeheraldry.forge_heraldry_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        // Crafting Components
                         output.accept(ModItems.HEATED_STEEL_NUGGET);
                         output.accept(ModItems.HEATED_STEEL_ROD);
                         output.accept(ModItems.STEEL_ROD);
-                        output.accept(ModItems.SMITHING_JIG);
+                        output.accept(ModItems.POMMEL);
+                        output.accept(ModItems.POLE);
+                        // Tool Heads
+                        output.accept(ModItems.CROSSGUARD);
+                        output.accept(ModItems.CROSSGUARD_SMALL);
+                        output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.STEEL_KNIFE_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
                         output.accept(ModItems.STEEL_RAPIER_BLADE);
                         output.accept(ModItems.STEEL_LONGSWORD_BLADE);
                         output.accept(ModItems.STEEL_GREATSWORD_BLADE);
-                        output.accept(ModItems.CROSSGUARD);
-                        output.accept(ModItems.CROSSGUARD_SMALL);
-                        output.accept(ModItems.CROSSGUARD_LARGE);
+
                         output.accept(ModItems.MACE_HEAD);
                         output.accept(ModItems.HAMMER_HEAD);
                         output.accept(ModItems.WARAXE_HEAD);
-                        output.accept(ModItems.POLE);
+
+                        // Jigs
+                        output.accept(ModItems.SMITHING_JIG);
                         output.accept(ModItems.JIG_V_SWORD);
                         output.accept(ModItems.JIG_ARMING_SWORD);
                         output.accept(ModItems.JIG_V_LONGSWORD);
                         output.accept(ModItems.JIG_CLAYMORE);
                         output.accept(ModItems.JIG_FLAMBERGE);
                         output.accept(ModItems.JIG_ZWEIHANDER);
-                        output.accept(ModItems.POMMEL);
+
                     }).build());
 
 public static void register(IEventBus eventBus) {
