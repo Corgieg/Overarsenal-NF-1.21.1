@@ -11,13 +11,13 @@
     }
   },
   "pattern": [
-    "iin",
-    "i  ",
+    "   ",
+    " in",
     "   "
   ],
   "result": {
     "count": 1,
-    "id": "forgeheraldry:waraxe_head"
+    "id": "forgeheraldry:steel_hammer_head"
   },
   "show_notification": false
 }

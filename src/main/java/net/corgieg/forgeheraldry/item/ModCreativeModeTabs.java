@@ -24,20 +24,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_ROD);
                         output.accept(ModItems.POMMEL);
                         output.accept(ModItems.POLE);
-                        // Tool Heads
                         output.accept(ModItems.CROSSGUARD);
                         output.accept(ModItems.CROSSGUARD_SMALL);
                         output.accept(ModItems.CROSSGUARD_LARGE);
+                        // Tool Heads
                         output.accept(ModItems.STEEL_KNIFE_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
                         output.accept(ModItems.STEEL_RAPIER_BLADE);
                         output.accept(ModItems.STEEL_LONGSWORD_BLADE);
                         output.accept(ModItems.STEEL_GREATSWORD_BLADE);
-
-                        output.accept(ModItems.MACE_HEAD);
-                        output.accept(ModItems.HAMMER_HEAD);
-                        output.accept(ModItems.WARAXE_HEAD);
-
+                        output.accept(ModItems.STEEL_MACE_HEAD);
+                        output.accept(ModItems.STEEL_HAMMER_HEAD);
+                        output.accept(ModItems.STEEL_WARAXE_HEAD);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG);
                         output.accept(ModItems.JIG_V_SWORD);

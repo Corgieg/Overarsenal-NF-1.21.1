@@ -34,11 +34,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> MACE_HEAD = ITEMS.register("mace_head",
+    public static final DeferredItem<Item> STEEL_MACE_HEAD = ITEMS.register("steel_mace_head",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> HAMMER_HEAD = ITEMS.register("hammer_head",
+    public static final DeferredItem<Item> STEEL_HAMMER_HEAD = ITEMS.register("steel_hammer_head",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> WARAXE_HEAD = ITEMS.register("waraxe_head",
+    public static final DeferredItem<Item> STEEL_WARAXE_HEAD = ITEMS.register("steel_waraxe_head",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
             () -> new Item(new Item.Properties()));

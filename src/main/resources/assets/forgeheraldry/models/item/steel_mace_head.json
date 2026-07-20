@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "forgeheraldry:item/waraxe_head"
+    "layer0": "forgeheraldry:item/steel_mace_head"
   }
 }
