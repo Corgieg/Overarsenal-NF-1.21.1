@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_ii",
+      "item": "forgeheraldry:smithing_jig_i",
       "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_greatsword_blade"
+      "item": "forgeheraldry:steel_sword_blade_single"
     },
     {
-      "item": "forgeheraldry:crossguard_large"
+      "item": "forgeheraldry:crossguard"
     },
     {
       "item": "minecraft:stick"
@@ -18,6 +18,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:flamberge"
+    "id": "knightsheraldry:scimitar"
   }
 }

@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:jig_arming_sword",
+      "item": "forgeheraldry:smithing_jig_ii",
       "remainder": true
     },
     {

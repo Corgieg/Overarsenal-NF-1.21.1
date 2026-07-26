@@ -31,19 +31,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_KNIFE_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
                         output.accept(ModItems.STEEL_RAPIER_BLADE);
+                        output.accept(ModItems.STEEL_SWORD_BLADE_SINGLE);
                         output.accept(ModItems.STEEL_LONGSWORD_BLADE);
                         output.accept(ModItems.STEEL_GREATSWORD_BLADE);
                         output.accept(ModItems.STEEL_MACE_HEAD);
                         output.accept(ModItems.STEEL_HAMMER_HEAD);
                         output.accept(ModItems.STEEL_WARAXE_HEAD);
+                        output.accept(ModItems.STEEL_SPEARHEAD);
                         // Jigs
-                        output.accept(ModItems.SMITHING_JIG);
-                        output.accept(ModItems.JIG_V_SWORD);
-                        output.accept(ModItems.JIG_ARMING_SWORD);
-                        output.accept(ModItems.JIG_V_LONGSWORD);
-                        output.accept(ModItems.JIG_CLAYMORE);
-                        output.accept(ModItems.JIG_FLAMBERGE);
-                        output.accept(ModItems.JIG_ZWEIHANDER);
+                        output.accept(ModItems.SMITHING_JIG_I);
+                        output.accept(ModItems.SMITHING_JIG_II);
+                        output.accept(ModItems.SMITHING_JIG_III);
 
                     }).build());
 

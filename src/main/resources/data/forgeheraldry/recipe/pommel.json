@@ -9,9 +9,8 @@
   },
   "need_quenching": false,
   "pattern": [
-    "   ",
-    " nn",
-    " nn"
+    "nn",
+    "nn"
   ],
   "result": {
     "count": 1,

@@ -12,8 +12,7 @@
   },
   "pattern": [
     "iin",
-    "i  ",
-    "   "
+    "i  "
   ],
   "result": {
     "count": 1,

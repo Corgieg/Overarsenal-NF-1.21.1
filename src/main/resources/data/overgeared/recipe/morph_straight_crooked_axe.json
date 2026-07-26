@@ -3,14 +3,11 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_ii",
+      "item": "forgeheraldry:smithing_jig_iii",
       "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_greatsword_blade"
-    },
-    {
-      "item": "forgeheraldry:crossguard_large"
+      "item": "forgeheraldry:steel_waraxe_head"
     },
     {
       "item": "minecraft:stick"
@@ -18,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:flamberge"
+    "id": "knightsheraldry:straight_crooked_axe"
   }
 }

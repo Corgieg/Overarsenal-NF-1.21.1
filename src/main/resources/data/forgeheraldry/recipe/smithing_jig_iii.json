@@ -1,28 +1,29 @@
 {
   "type": "overgeared:forging",
-  "hammering": 5,
+  "hammering": 8,
   "has_quality": false,
   "needs_minigame": true,
+  "quality_difficulty": "master",
   "key": {
-    "j": {
-      "item": "forgeheraldry:smithing_jig"
+    "i": {
+      "item": "overgeared:steel_ingot"
     },
-    "w": {
-      "item": "knightsheraldry:greatsword"
+    "#": {
+      "item": "minecraft:diamond"
     }
   },
   "need_quenching": false,
   "pattern": [
-    "j",
-    "w"
+    " i ",
+    "i#i"
   ],
   "result": {
     "count": 1,
-    "id": "forgeheraldry:jig_claymore"
+    "id": "forgeheraldry:smithing_jig_iii"
   },
   "result_failed": {
     "count": 1,
-    "id": "forgeheraldry:smithing_jig"
+    "id": "minecraft:diamond"
   },
   "show_notification": false
 }

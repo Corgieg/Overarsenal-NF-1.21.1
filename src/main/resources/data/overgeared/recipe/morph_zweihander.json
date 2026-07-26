@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:jig_zweihander",
+      "item": "forgeheraldry:smithing_jig_iii",
       "remainder": true
     },
     {

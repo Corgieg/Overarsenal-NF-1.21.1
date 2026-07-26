@@ -1,6 +1,6 @@
 {
   "type": "overgeared:forging",
-  "hammering": 5,
+  "hammering": 3,
   "has_quality": false,
   "key": {
     "i": {
@@ -9,12 +9,12 @@
   },
   "need_quenching": false,
   "pattern": [
-    " i ",
-    "iii"
+    "i ",
+    " i"
   ],
   "result": {
-    "count": 1,
-    "id": "forgeheraldry:smithing_jig"
+    "count": 2,
+    "id": "forgeheraldry:steel_rod"
   },
   "show_notification": false
 }

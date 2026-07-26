@@ -16,13 +16,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ROD = ITEMS.register("steel_rod",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> SMITHING_JIG = ITEMS.register("smithing_jig",
+    public static final DeferredItem<Item> SMITHING_JIG_I = ITEMS.register("smithing_jig_i",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SMITHING_JIG_II = ITEMS.register("smithing_jig_ii",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SMITHING_JIG_III = ITEMS.register("smithing_jig_iii",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_KNIFE_BLADE = ITEMS.register("steel_knife_blade",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_STILETTO_BLADE = ITEMS.register("steel_stiletto_blade",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_RAPIER_BLADE = ITEMS.register("steel_rapier_blade",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_SWORD_BLADE_SINGLE = ITEMS.register("steel_sword_blade_single",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_LONGSWORD_BLADE = ITEMS.register("steel_longsword_blade",
             () -> new Item(new Item.Properties()));
@@ -40,19 +46,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_WARAXE_HEAD = ITEMS.register("steel_waraxe_head",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_SPEARHEAD = ITEMS.register("steel_spearhead",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_V_SWORD = ITEMS.register("jig_v_sword",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_ARMING_SWORD = ITEMS.register("jig_arming_sword",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_V_LONGSWORD = ITEMS.register("jig_v_longsword",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_CLAYMORE = ITEMS.register("jig_claymore",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_FLAMBERGE = ITEMS.register("jig_flamberge",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> JIG_ZWEIHANDER = ITEMS.register("jig_zweihander",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POMMEL = ITEMS.register("pommel",
             () -> new PommelItem(new Item.Properties().stacksTo(16)));

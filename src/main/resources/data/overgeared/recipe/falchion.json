@@ -3,17 +3,17 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_spearhead"
+      "item": "forgeheraldry:steel_sword_blade_single"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "forgeheraldry:crossguard"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "minecraft:stick"
     }
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:pike"
+    "id": "knightsheraldry:falchion"
   }
 }
