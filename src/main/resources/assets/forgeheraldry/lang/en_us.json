@@ -19,6 +19,10 @@
     "item.forgeheraldry.steel_waraxe_head": "Steel Waraxe Head",
     "item.forgeheraldry.steel_spearhead": "Steel Spearhead",
     "item.forgeheraldry.pole": "Pole",
+    "item.forgeheraldry.bow_arm": "Bow Arm",
+    "item.forgeheraldry.steel_arrow_head_bodkin": "Steel Bodkin Arrowhead",
+    "item.forgeheraldry.steel_arrow_head_broad": "Steel Broadhead Arrowhead",
+    "item.forgeheraldry.steel_arrow_head_swallowtail": "Steel Swallowtail Arrowhead",
     "creativetab.forgeheraldry.forge_heraldry_items" : "Forge of Heraldry",
     "item.forgeheraldry.pommel": "Pommel"
 }

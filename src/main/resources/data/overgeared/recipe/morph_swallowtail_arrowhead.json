@@ -1,0 +1,17 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "forgeheraldry:smithing_jig_iii",
+      "remainder": true
+    },
+    {
+      "item": "overgeared:steel_arrow_head"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "forgeheraldry:steel_arrow_head_swallowtail"
+  }
+}

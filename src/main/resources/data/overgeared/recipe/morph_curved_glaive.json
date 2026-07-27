@@ -3,13 +3,11 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "forgeheraldry:smithing_jig_i",
+      "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
-    },
-    {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "overgeared:steel_sword_blade"
     },
     {
       "item": "forgeheraldry:pole"
@@ -17,6 +15,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:pitchfork"
+    "id": "knightsheraldry:curved_glaive"
   }
 }
