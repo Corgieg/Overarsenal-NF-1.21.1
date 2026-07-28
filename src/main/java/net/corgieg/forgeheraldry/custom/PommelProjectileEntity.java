@@ -1,11 +1,13 @@
 package net.corgieg.forgeheraldry.custom;
 
+import net.corgieg.forgeheraldry.item.ModItems;
 import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -55,9 +57,10 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
 
     protected void onHit(HitResult result) {
         super.onHit(result);
+
         if (!this.level().isClientSide) {
             this.level().broadcastEntityEvent(this, (byte)3);
-            //this.level().addFreshEntity()
+            this.level().addFreshEntity(new ItemEntity( level(), getX(), getY(), getZ(), ModItems.POMMEL.toStack()));
             this.discard();
         }
     }
