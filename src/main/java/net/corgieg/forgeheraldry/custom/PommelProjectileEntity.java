@@ -1,6 +1,8 @@
 package net.corgieg.forgeheraldry.custom;
 
+import net.corgieg.forgeheraldry.entity.ModEntities;
 import net.corgieg.forgeheraldry.item.ModItems;
+import net.corgieg.forgeheraldry.particle.ModParticles;
 import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
@@ -22,20 +24,20 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
     }
 
     public PommelProjectileEntity(Level level, LivingEntity shooter) {
-        super(EntityType.SNOWBALL, shooter, level);
+        super(ModEntities.POMMEL.get(), shooter, level);
     }
 
     public PommelProjectileEntity(Level level, double x, double y, double z) {
-        super(EntityType.SNOWBALL, x, y, z, level);
+        super(ModEntities.POMMEL.get(), x, y, z, level);
     }
 
     protected Item getDefaultItem() {
-        return Items.SNOWBALL;
+        return ModItems.POMMEL.asItem();
     }
 
     private ParticleOptions getParticle() {
         ItemStack itemstack = this.getItem();
-        return (ParticleOptions)(!itemstack.isEmpty() && !itemstack.is(this.getDefaultItem()) ? new ItemParticleOption(ParticleTypes.ITEM, itemstack) : ParticleTypes.ITEM_SNOWBALL);
+        return (ParticleOptions)(!itemstack.isEmpty() && !itemstack.is(this.getDefaultItem()) ? new ItemParticleOption(ParticleTypes.ITEM, itemstack) : ModParticles.POMMEL_PARTICLES);
     }
 
     public void handleEntityEvent(byte id) {

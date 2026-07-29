@@ -2,6 +2,12 @@ package net.corgieg.forgeheraldry;
 
 import net.corgieg.forgeheraldry.item.ModCreativeModeTabs;
 import net.corgieg.forgeheraldry.item.ModItems;
+import net.corgieg.forgeheraldry.particle.ModParticles;
+import net.corgieg.forgeheraldry.particle.PommelParticles;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -55,6 +61,8 @@ public class ForgeHeraldry {
 
         ModItems.register(modEventBus);
 
+        ModParticles.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -77,5 +85,13 @@ public class ForgeHeraldry {
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
+    }
+
+    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+                event.registerSpriteSet(ModParticles.POMMEL_PARTICLES.get(), PommelParticles.Provider::new);
+        }
     }
 }

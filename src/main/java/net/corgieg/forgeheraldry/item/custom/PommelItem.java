@@ -24,10 +24,10 @@ public class PommelItem extends Item {
         level.playSound(null, player.getX(), player.getY(), player.getZ(),
                 SoundEvents.SNOWBALL_THROW, SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
         if (!level.isClientSide) {
-            PommelProjectileEntity snowball = new PommelProjectileEntity(level, player);
-            snowball.setItem(itemstack);
-            snowball.shootFromRotation(player, player.getXRot(), player.getYRot(), 0.0F, 1.5F, 1.0F);
-            level.addFreshEntity(snowball);
+            PommelProjectileEntity pommel = new PommelProjectileEntity(level, player);
+            pommel.setItem(itemstack);
+            pommel.shootFromRotation(player, player.getXRot(), player.getYRot(), 0.0F, 1.5F, 1.0F);
+            level.addFreshEntity(pommel);
         }
 
         player.awardStat(Stats.ITEM_USED.get(this));
