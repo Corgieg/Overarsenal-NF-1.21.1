@@ -46,7 +46,7 @@ authors="Corgieg and SmokeytheFireBreathingDragon"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A compatability mod that integrates Knights & Heraldry weapons into Overgeard's crafting system.
+A compatability mod that integrates Knights & Heraldry weapons into Overgeard's smithing system.
 
 For 1.21.1 and NeoForge only.
 '''
@@ -84,6 +84,22 @@ For 1.21.1 and NeoForge only.
 # Here's another dependency
 [[dependencies.${mod_id}]]
     modId="minecraft"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="knightsheraldry"
+    type="required"
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="overgeared"
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
