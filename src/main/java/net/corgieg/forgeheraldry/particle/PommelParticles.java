@@ -2,6 +2,9 @@ package net.corgieg.forgeheraldry.particle;
 
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.*;
+import net.minecraft.core.particles.ItemParticleOption;
+import net.minecraft.core.particles.ParticleType;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.SimpleParticleType;
 
 import javax.annotation.Nullable;
@@ -11,7 +14,8 @@ public class PommelParticles extends TextureSheetParticle {
                               double xSpeed, double ySpeed, double zSpeed) {
         super(level, x, y, z, xSpeed, ySpeed, zSpeed);
 
-        this.lifetime = 20;
+        //this.spriteSet = spriteSet;
+        this.lifetime = 80;
         this.setSpriteFromAge(spriteSet);
     }
 

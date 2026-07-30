@@ -90,8 +90,13 @@ public class ForgeHeraldry {
     @EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event) {
+
+        }
+
+        @SubscribeEvent
         public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
-                event.registerSpriteSet(ModParticles.POMMEL_PARTICLES.get(), PommelParticles.Provider::new);
+                event.registerSpriteSet(ModParticles.POMMEL.get(), PommelParticles.Provider::new);
         }
     }
 }

@@ -19,7 +19,6 @@ public class ModEntities {
             ENTITY_TYPES.register("pommel", () -> EntityType.Builder.<PommelProjectileEntity>of(PommelProjectileEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).build("pommel"));
 
-
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }

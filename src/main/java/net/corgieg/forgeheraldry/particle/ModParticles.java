@@ -13,8 +13,8 @@ public class ModParticles {
     public static final DeferredRegister<ParticleType<?>> PARTICLE_TYPES =
             DeferredRegister.create(BuiltInRegistries.PARTICLE_TYPE, ForgeHeraldry.MODID);
 
-    public static final Supplier<SimpleParticleType> POMMEL_PARTICLES =
-            PARTICLE_TYPES.register("pommel_particles", () -> new SimpleParticleType(true));
+    public static final Supplier<SimpleParticleType> POMMEL =
+            PARTICLE_TYPES.register("pommel", () -> new SimpleParticleType(true));
 
     public static void register(IEventBus eventBus) {
         PARTICLE_TYPES.register(eventBus);

@@ -2,6 +2,7 @@ package net.corgieg.forgeheraldry.item;
 
 import net.corgieg.forgeheraldry.ForgeHeraldry;
 import net.corgieg.forgeheraldry.item.custom.PommelItem;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
