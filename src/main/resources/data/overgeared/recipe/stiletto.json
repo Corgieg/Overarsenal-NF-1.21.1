@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "overarsenal:steel_stiletto_blade"
     },
     {
-      "item": "forgeheraldry:crossguard_small"
+      "item": "overarsenal:crossguard_small"
     },
     {
       "item": "minecraft:stick"

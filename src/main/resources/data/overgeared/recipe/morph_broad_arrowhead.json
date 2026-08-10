@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_i",
+      "item": "overarsenal:smithing_jig_i",
       "remainder": true
     },
     {
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "forgeheraldry:steel_arrow_head_broad"
+    "id": "overarsenal:steel_arrow_head_broad"
   }
 }

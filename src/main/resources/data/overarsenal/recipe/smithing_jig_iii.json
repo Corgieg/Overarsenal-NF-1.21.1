@@ -1,0 +1,29 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 8,
+  "has_quality": false,
+  "needs_minigame": true,
+  "quality_difficulty": "master",
+  "key": {
+    "i": {
+      "item": "overgeared:steel_ingot"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    " i ",
+    "i#i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:smithing_jig_iii"
+  },
+  "result_failed": {
+    "count": 1,
+    "id": "minecraft:diamond"
+  },
+  "show_notification": false
+}

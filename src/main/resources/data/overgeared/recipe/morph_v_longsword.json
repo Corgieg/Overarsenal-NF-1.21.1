@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_i",
+      "item": "overarsenal:smithing_jig_i",
       "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_longsword_blade"
+      "item": "overarsenal:steel_longsword_blade"
     },
     {
-      "item": "forgeheraldry:crossguard"
+      "item": "overarsenal:crossguard"
     },
     {
       "item": "minecraft:stick"

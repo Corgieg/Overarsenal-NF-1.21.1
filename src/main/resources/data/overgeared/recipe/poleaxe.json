@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_waraxe_head"
+      "item": "overarsenal:steel_waraxe_head"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     }
   ],
   "result": {

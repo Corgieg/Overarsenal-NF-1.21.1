@@ -3,13 +3,13 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_spearhead"
+      "item": "overarsenal:steel_spearhead"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     }
   ],
   "result": {

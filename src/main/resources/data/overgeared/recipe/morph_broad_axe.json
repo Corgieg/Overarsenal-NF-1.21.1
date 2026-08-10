@@ -3,11 +3,11 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_i",
+      "item": "overarsenal:smithing_jig_i",
       "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_waraxe_head"
+      "item": "overarsenal:steel_waraxe_head"
     },
     {
       "item": "minecraft:stick"

@@ -3,7 +3,7 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_ii",
+      "item": "overarsenal:smithing_jig_ii",
       "remainder": true
     },
     {
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "forgeheraldry:steel_arrow_head_bodkin"
+    "id": "overarsenal:steel_arrow_head_bodkin"
   }
 }

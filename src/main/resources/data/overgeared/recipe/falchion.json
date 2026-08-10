@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_sword_blade_single"
+      "item": "overarsenal:steel_sword_blade_single"
     },
     {
-      "item": "forgeheraldry:crossguard"
+      "item": "overarsenal:crossguard"
     },
     {
       "item": "minecraft:stick"

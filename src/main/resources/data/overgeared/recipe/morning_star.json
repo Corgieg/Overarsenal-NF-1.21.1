@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_mace_head"
+      "item": "overarsenal:steel_mace_head"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     }
   ],
   "result": {

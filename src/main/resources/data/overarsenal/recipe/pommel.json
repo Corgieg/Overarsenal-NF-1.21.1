@@ -1,0 +1,20 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "n": {
+      "item": "overgeared:steel_nugget"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "nn",
+    "nn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:pommel"
+  },
+  "show_notification": false
+}

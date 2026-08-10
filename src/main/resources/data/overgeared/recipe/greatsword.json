@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_greatsword_blade"
+      "item": "overarsenal:steel_greatsword_blade"
     },
     {
-      "item": "forgeheraldry:crossguard_large"
+      "item": "overarsenal:crossguard_large"
     },
     {
       "item": "minecraft:stick"

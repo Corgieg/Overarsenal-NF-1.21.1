@@ -1,0 +1,22 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 3,
+  "has_quality": false,
+  "key": {
+    "r": {
+      "item": "overarsenal:steel_rod"
+    },
+    "n": {
+      "item": "overgeared:steel_nugget"
+    }
+  },
+  "need_quenching": false,
+  "pattern": [
+    "nrn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:crossguard_large"
+  },
+  "show_notification": false
+}

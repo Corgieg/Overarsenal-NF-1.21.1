@@ -3,16 +3,16 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "overarsenal:steel_stiletto_blade"
     },
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "overarsenal:steel_stiletto_blade"
     },
     {
-      "item": "forgeheraldry:steel_stiletto_blade"
+      "item": "overarsenal:steel_stiletto_blade"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     }
   ],
   "result": {

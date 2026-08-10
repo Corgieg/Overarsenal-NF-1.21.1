@@ -3,14 +3,14 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "forgeheraldry:smithing_jig_i",
+      "item": "overarsenal:smithing_jig_i",
       "remainder": true
     },
     {
-      "item": "forgeheraldry:steel_hammer_head"
+      "item": "overarsenal:steel_hammer_head"
     },
     {
-      "item": "forgeheraldry:pole"
+      "item": "overarsenal:pole"
     }
   ],
   "result": {

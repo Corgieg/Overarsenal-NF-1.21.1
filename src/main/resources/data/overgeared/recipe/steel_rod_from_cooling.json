@@ -1,9 +1,9 @@
 {
   "type": "overgeared:cooling",
   "input": {
-    "item": "forgeheraldry:heated_steel_rod"
+    "item": "overarsenal:heated_steel_rod"
   },
   "output": {
-    "id": "forgeheraldry:steel_rod"
+    "id": "overarsenal:steel_rod"
   }
 }

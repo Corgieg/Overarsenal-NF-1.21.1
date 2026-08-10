@@ -1,7 +1,7 @@
 {
   "type": "overgeared:cooling",
   "input": {
-    "item": "forgeheraldry:heated_steel_nugget"
+    "item": "overarsenal:heated_steel_nugget"
   },
   "output": {
     "id": "overgeared:steel_nugget"
