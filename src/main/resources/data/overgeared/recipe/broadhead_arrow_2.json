@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "x",
+    "#",
+    "a"
+  ],
+  "key": {
+    "x": {
+      "item": "overarsenal:steel_arrow_head_broad"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "a": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "knightsheraldry:broadhead_arrow",
+    "count": 4
+  }
+}

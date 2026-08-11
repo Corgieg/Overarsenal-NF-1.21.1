@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_HAMMER_HEAD);
                         output.accept(ModItems.STEEL_WARAXE_HEAD);
                         output.accept(ModItems.STEEL_SPEARHEAD);
+                        output.accept(ModItems.STEEL_PITCHFORK_HEAD);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG_I);
                         output.accept(ModItems.SMITHING_JIG_II);

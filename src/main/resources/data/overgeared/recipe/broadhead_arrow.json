@@ -1,0 +1,24 @@
+{
+  "type": "overgeared:fletching",
+  "feather": {
+    "item": "minecraft:feather"
+  },
+  "result": {
+    "count": 4,
+    "id": "knightsheraldry:broadhead_arrow"
+  },
+  "result_lingering": {
+    "count": 4,
+    "id": "knightsheraldry:broadhead_arrow"
+  },
+  "result_tipped": {
+    "count": 4,
+    "id": "knightsheraldry:broadhead_arrow"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "tip": {
+    "item": "overarsenal:steel_arrow_head_broad"
+  }
+}

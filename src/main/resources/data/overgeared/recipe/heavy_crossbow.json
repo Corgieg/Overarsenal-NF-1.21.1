@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "brb",
+    "sts",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "overarsenal:bow_arm"
+    },
+    "r": {
+      "item": "overarsenal:steel_rod"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "t": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:heavy_crossbow"
+  }
+}

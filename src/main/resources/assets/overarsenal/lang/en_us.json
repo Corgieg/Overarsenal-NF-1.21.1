@@ -18,11 +18,12 @@
     "item.overarsenal.steel_mace_head": "Steel Mace Head",
     "item.overarsenal.steel_waraxe_head": "Steel Waraxe Head",
     "item.overarsenal.steel_spearhead": "Steel Spearhead",
+    "item.overarsenal.steel_pitchfork_head": "Steel Pitchfork Head",
     "item.overarsenal.pole": "Pole",
     "item.overarsenal.bow_arm": "Bow Arm",
     "item.overarsenal.steel_arrow_head_bodkin": "Steel Bodkin Arrowhead",
     "item.overarsenal.steel_arrow_head_broad": "Steel Broadhead Arrowhead",
     "item.overarsenal.steel_arrow_head_swallowtail": "Steel Swallowtail Arrowhead",
-    "creativetab.overarsenal.forge_heraldry_items" : "Forge of Heraldry",
+    "creativetab.overarsenal.overarsenal_items" : "Overarsenal",
     "item.overarsenal.pommel": "Pommel"
 }
