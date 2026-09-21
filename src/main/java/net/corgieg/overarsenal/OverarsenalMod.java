@@ -1,9 +1,13 @@
 package net.corgieg.overarsenal;
 
+import net.corgieg.overarsenal.entity.ModEntities;
+import net.corgieg.overarsenal.entity.client.PommelProjectileRenderer;
 import net.corgieg.overarsenal.item.ModCreativeModeTabs;
 import net.corgieg.overarsenal.item.ModItems;
 import net.corgieg.overarsenal.particle.ModParticles;
 import net.corgieg.overarsenal.particle.PommelParticles;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -46,10 +50,9 @@ public class OverarsenalMod {
 
         ModItems.register(modEventBus);
 
-        ModParticles.register(modEventBus);
+        ModEntities.register(modEventBus);
 
-        // Register the item to a creative tab
-        //modEventBus.addListener(this::addCreative);
+        ModParticles.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -58,13 +61,6 @@ public class OverarsenalMod {
     private void commonSetup(FMLCommonSetupEvent event) {
 
     }
-
-    // Add the example block item to the building blocks tab
-    //private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        //if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            // Moved to its own Creative Mode Tab
-        //}
-    //}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -76,7 +72,7 @@ public class OverarsenalMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.POMMEL.get(), PommelProjectileRenderer::new);
         }
 
         @SubscribeEvent

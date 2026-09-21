@@ -1,4 +1,4 @@
-package net.corgieg.overarsenal.custom;
+package net.corgieg.overarsenal.entity.custom;
 
 import net.corgieg.overarsenal.entity.ModEntities;
 import net.corgieg.overarsenal.item.ModItems;
@@ -24,21 +24,20 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
     }
 
     public PommelProjectileEntity(Level level, LivingEntity shooter) {
-        super(EntityType.EGG, shooter, level);
+        super(ModEntities.POMMEL.get(), shooter, level);
     }
 
-    //public PommelProjectileEntity(Level level, double x, double y, double z) {
-        //super(EntityType.SNOWBALL, x, y, z, level);
-    //}
+    public PommelProjectileEntity(Level level, double x, double y, double z) {
+        super(ModEntities.POMMEL.get(), x, y, z, level);
+    }
 
-    @Override
     protected Item getDefaultItem() {
         return ModItems.POMMEL.asItem();
     }
 
     private ParticleOptions getParticle() {
         ItemStack itemstack = this.getItem();
-        return (ParticleOptions)(!itemstack.isEmpty() && !itemstack.is(this.getDefaultItem()) ? new ItemParticleOption(ParticleTypes.ITEM, itemstack) : ModParticles.POMMEL.get());
+        return !itemstack.isEmpty() && !itemstack.is(this.getDefaultItem()) ? new ItemParticleOption(ParticleTypes.ITEM, itemstack) : ModParticles.POMMEL.get();
     }
 
     public void handleEntityEvent(byte id) {
@@ -46,27 +45,25 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
             ParticleOptions particleoptions = this.getParticle();
 
             for(int i = 0; i < 8; ++i) {
-                this.level().addParticle(particleoptions, this.getX(), this.getY(), this.getZ(), (double)0.0F, (double)0.0F, (double)0.0F);
+                this.level().addParticle(particleoptions, this.getX(), this.getY(), this.getZ(), 0.0F, 0.0F, 0.0F);
             }
         }
 
     }
 
-    @Override
     protected void onHitEntity(EntityHitResult result) {
         super.onHitEntity(result);
         Entity entity = result.getEntity();
         entity.hurt(this.damageSources().thrown(this, this.getOwner()), (float)4);
     }
 
-    @Override
     protected void onHit(HitResult result) {
         super.onHit(result);
         if (!this.level().isClientSide) {
             this.level().broadcastEntityEvent(this, (byte)3);
             ((ServerLevel) this.level()).sendParticles(ModParticles.POMMEL.get(), this.getX(), this.getY(), this.getZ(),
-                    3, 0, 0, 0, 1);
-            this.level().addFreshEntity(new ItemEntity( level(), getX(), getY(), getZ(), ModItems.POMMEL.toStack()));
+                    5, 0, 0, 0, 0.5);
+            this.level().addFreshEntity(new ItemEntity(level(), getX(), getY(), getZ(), ModItems.POMMEL.toStack()));
             this.discard();
         }
     }

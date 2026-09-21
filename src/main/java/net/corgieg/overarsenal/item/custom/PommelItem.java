@@ -1,41 +1,49 @@
 package net.corgieg.overarsenal.item.custom;
 
-import net.corgieg.overarsenal.custom.PommelProjectileEntity;
+import net.corgieg.overarsenal.entity.custom.PommelProjectileEntity;
+import net.minecraft.core.Direction;
+import net.minecraft.core.Position;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ProjectileItem;
 import net.minecraft.world.level.Level;
 
-public class PommelItem extends Item {
-    public PommelItem(Properties properties) {
+public class PommelItem extends Item implements ProjectileItem {
+    public PommelItem(Item.Properties properties) {
         super(properties);
     }
 
-    @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemStack itemstack = player.getItemInHand(hand);
         level.playSound(null, player.getX(), player.getY(), player.getZ(),
-                SoundEvents.SNOWBALL_THROW, SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
+                SoundEvents.EGG_THROW, SoundSource.NEUTRAL, 0.5F, 0.4F / (level.getRandom().nextFloat() * 0.4F + 0.8F));
         if (!level.isClientSide) {
             PommelProjectileEntity pommel = new PommelProjectileEntity(level, player);
-            //PommelProjectileEntity pommel = new PommelProjectileEntity(ModEntities.POMMEL.get(), level);
-            //pommel.setOwner(player);
             pommel.setItem(itemstack);
             pommel.shootFromRotation(player, player.getXRot(), player.getYRot(), 0.0F, 1.5F, 1.0F);
             level.addFreshEntity(pommel);
         }
 
         player.awardStat(Stats.ITEM_USED.get(this));
-        if (!player.getAbilities().instabuild) {
-            itemstack.shrink(1);
-        }
+        itemstack.consume(1, player);
+        //if (!player.getAbilities().instabuild) {
+            //itemstack.shrink(1);
+        //}
 
         return InteractionResultHolder.sidedSuccess(itemstack, level.isClientSide());
+    }
+
+    public Projectile asProjectile(Level level, Position pos, ItemStack stack, Direction direction) {
+        PommelProjectileEntity pommel = new PommelProjectileEntity(level, pos.x(), pos.y(), pos.z());
+        pommel.setItem(stack);
+        return pommel;
     }
 
 }
