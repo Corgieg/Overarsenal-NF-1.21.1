@@ -1,5 +1,6 @@
 package net.corgieg.overarsenal.custom;
 
+import net.corgieg.overarsenal.entity.ModEntities;
 import net.corgieg.overarsenal.item.ModItems;
 import net.corgieg.overarsenal.particle.ModParticles;
 import net.minecraft.core.particles.ItemParticleOption;
@@ -23,12 +24,12 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
     }
 
     public PommelProjectileEntity(Level level, LivingEntity shooter) {
-        super(EntityType.SNOWBALL, shooter, level);
+        super(EntityType.EGG, shooter, level);
     }
 
-    public PommelProjectileEntity(Level level, double x, double y, double z) {
-        super(EntityType.SNOWBALL, x, y, z, level);
-    }
+    //public PommelProjectileEntity(Level level, double x, double y, double z) {
+        //super(EntityType.SNOWBALL, x, y, z, level);
+    //}
 
     @Override
     protected Item getDefaultItem() {
