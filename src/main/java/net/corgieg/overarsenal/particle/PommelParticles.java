@@ -15,7 +15,7 @@ public class PommelParticles extends TextureSheetParticle {
 
         this.spriteSet = spriteSet;
         this.lifetime = 10;
-        this.gravity = 0;
+        this.gravity = 0.5f;
         this.setSpriteFromAge(spriteSet);
     }
 
