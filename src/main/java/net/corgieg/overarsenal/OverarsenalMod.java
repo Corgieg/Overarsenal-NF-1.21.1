@@ -76,7 +76,7 @@ public class OverarsenalMod {
         }
 
         @SubscribeEvent
-        public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+        public static void registerParticleProviders(RegisterParticleProvidersEvent event) {
                 event.registerSpriteSet(ModParticles.POMMEL.get(), PommelParticles.Provider::new);
         }
     }

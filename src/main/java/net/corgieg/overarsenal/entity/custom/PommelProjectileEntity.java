@@ -6,7 +6,6 @@ import net.corgieg.overarsenal.particle.ModParticles;
 import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
@@ -43,7 +42,6 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
     public void handleEntityEvent(byte id) {
         if (id == 3) {
             ParticleOptions particleoptions = this.getParticle();
-
             for(int i = 0; i < 8; ++i) {
                 this.level().addParticle(particleoptions, this.getX(), this.getY(), this.getZ(), 0.0F, 0.0F, 0.0F);
             }
@@ -61,8 +59,6 @@ public class PommelProjectileEntity extends ThrowableItemProjectile {
         super.onHit(result);
         if (!this.level().isClientSide) {
             this.level().broadcastEntityEvent(this, (byte)3);
-            ((ServerLevel) this.level()).sendParticles(ModParticles.POMMEL.get(), this.getX(), this.getY(), this.getZ(),
-                    5, 0, 0, 0, 0.5);
             this.level().addFreshEntity(new ItemEntity(level(), getX(), getY(), getZ(), ModItems.POMMEL.toStack()));
             this.discard();
         }

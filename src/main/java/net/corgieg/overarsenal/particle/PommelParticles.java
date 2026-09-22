@@ -7,13 +7,22 @@ import net.minecraft.core.particles.SimpleParticleType;
 import javax.annotation.Nullable;
 
 public class PommelParticles extends TextureSheetParticle {
+    private final SpriteSet spriteSet;
+
     protected PommelParticles(ClientLevel level, double x, double y, double z, SpriteSet spriteSet,
                               double xSpeed, double ySpeed, double zSpeed) {
         super(level, x, y, z, xSpeed, ySpeed, zSpeed);
 
-        //this.spriteSet = spriteSet;
+        this.spriteSet = spriteSet;
         this.lifetime = 10;
+        this.gravity = 0;
         this.setSpriteFromAge(spriteSet);
+    }
+
+    @Override
+    public void tick() {
+        this.setSpriteFromAge(spriteSet);
+        super.tick();
     }
 
     @Override

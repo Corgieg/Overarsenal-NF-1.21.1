@@ -1,5 +1,8 @@
 {
   "textures": [
-    "overarsenal:pommel"
+    "overarsenal:pommel_particle_0",
+    "overarsenal:pommel_particle_1",
+    "overarsenal:pommel_particle_2",
+    "overarsenal:pommel_particle_3"
   ]
 }
