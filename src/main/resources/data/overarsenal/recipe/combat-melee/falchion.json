@@ -3,17 +3,20 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overgeared:steel_sword_blade"
+      "item": "overarsenal:steel_sword_blade_single"
     },
     {
       "item": "overarsenal:crossguard"
     },
     {
       "item": "minecraft:stick"
+    },
+    {
+      "item": "overarsenal:pommel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:sword"
+    "id": "knightsheraldry:falchion"
   }
 }

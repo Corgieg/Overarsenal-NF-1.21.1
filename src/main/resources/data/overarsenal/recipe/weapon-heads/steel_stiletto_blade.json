@@ -3,11 +3,15 @@
   "category": "TOOL_HEADS",
   "hammering": 4,
   "key": {
+    "n": {
+      "item": "overarsenal:heated_steel_nugget"
+    },
     "r": {
       "item": "overarsenal:heated_steel_rod"
     }
   },
   "pattern": [
+    "n",
     "r"
   ],
   "result": {

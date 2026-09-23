@@ -3,10 +3,6 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overarsenal:smithing_jig_i",
-      "remainder": true
-    },
-    {
       "item": "overarsenal:steel_longsword_blade"
     },
     {
@@ -14,10 +10,13 @@
     },
     {
       "item": "minecraft:stick"
+    },
+    {
+      "item": "overarsenal:pommel"
     }
   ],
   "result": {
     "count": 1,
-    "id": "knightsheraldry:v_longsword"
+    "id": "knightsheraldry:longsword"
   }
 }

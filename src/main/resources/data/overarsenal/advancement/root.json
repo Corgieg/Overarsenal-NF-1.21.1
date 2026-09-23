@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:smithing_jig_iii"
+    },
+    "title": "Overarsenal",
+    "description": "Doth thou needeth an armament?",
+    "background": "minecraft:textures/block/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

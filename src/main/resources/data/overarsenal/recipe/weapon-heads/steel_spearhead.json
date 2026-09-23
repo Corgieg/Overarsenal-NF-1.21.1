@@ -11,9 +11,8 @@
     }
   },
   "pattern": [
-    "nnn",
-    " rn",
-    "  n"
+    " n ",
+    "nrn"
   ],
   "result": {
     "count": 1,

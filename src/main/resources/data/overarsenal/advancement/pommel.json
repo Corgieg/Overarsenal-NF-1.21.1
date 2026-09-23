@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:pommel"
+    },
+    "title": "End Them Rightly!",
+    "description": "Obtain the finest blunt instrument ever crafted",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:root",
+  "criteria": {
+    "pommel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "overarsenal:pommel"
+          }
+        ]
+      }
+    }
+  }
+}
