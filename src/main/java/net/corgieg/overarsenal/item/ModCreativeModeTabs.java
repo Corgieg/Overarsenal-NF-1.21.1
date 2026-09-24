@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CROSSGUARD_SMALL);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.BOW_ARM);
+                        output.accept(ModItems.LANCE_HAFT);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BODKIN);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BROAD);
                         output.accept(ModItems.STEEL_ARROW_HEAD_SWALLOWTAIL);

@@ -1,0 +1,168 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:steel_mace_head"
+    },
+    "title": "Dangerous When Refined",
+    "description": "Construct a weapon of tougher stuff than iron...steel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:weapon_head",
+  "criteria": {
+    "forging_arming_sword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/arming_sword" }
+    },
+    "forging_ball_flail": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/ball_flail" }
+    },
+    "forging_bardiche": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/bardiche" }
+    },
+    "forging_bec_de_corbin": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/bec_de_corbin" }
+    },
+    "forging_billhook": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/billhook" }
+    },
+    "forging_broad_axe": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/broad_axe" }
+    },
+    "forging_claymore": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/claymore" }
+    },
+    "forging_crooked_axe": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/crooked_axe" }
+    },
+    "forging_curved_glaive": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/curved_glaive" }
+    },
+    "forging_dagger": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/dagger" }
+    },
+    "forging_falchion": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/falchion" }
+    },
+    "forging_flail": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/flail" }
+    },
+    "forging_flamberge": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/flamberge" }
+    },
+    "forging_glaive": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/glaive" }
+    },
+    "forging_greatsword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/greatsword" }
+    },
+    "forging_halberd": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/halberd" }
+    },
+    "forging_hammer": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/hammer" }
+    },
+    "forging_lance": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/lance" }
+    },
+    "forging_longsword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/longsword" }
+    },
+    "forging_mace": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/mace" }
+    },
+    "forging_morning_star": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/morning_star" }
+    },
+    "forging_pike": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/pike" }
+    },
+    "forging_pitchfork": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/pitchfork" }
+    },
+    "forging_poleaxe": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/poleaxe" }
+    },
+    "forging_polehammer": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/polehammer" }
+    },
+    "forging_rapier": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/rapier" }
+    },
+    "forging_scimitar": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/scimitar" }
+    },
+    "forging_spear": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/spear" }
+    },
+    "forging_spiked_mace": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/spiked_mace" }
+    },
+    "forging_stiletto": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/stiletto" }
+    },
+    "forging_straight_crooked_axe": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/straight_crooked_axe" }
+    },
+    "forging_sword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/sword" }
+    },
+    "forging_v_longsword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/v_longsword" }
+    },
+    "forging_v_sword": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/v_sword" }
+    },
+    "forging_war_hammer": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/war_hammer" }
+    },
+    "forging_waraxe": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/waraxe" }
+    },
+    "forging_zweihander": {
+      "trigger": "minecraft:recipe_crafted", "conditions": { "recipe_id": "overarsenal:combat-melee/zweihander" }
+    }
+  },
+  "requirements": [
+    [
+      "forging_arming_sword",
+      "forging_ball_flail",
+      "forging_bardiche",
+      "forging_bec_de_corbin",
+      "forging_billhook",
+      "forging_broad_axe",
+      "forging_claymore",
+      "forging_crooked_axe",
+      "forging_curved_glaive",
+      "forging_dagger",
+      "forging_falchion",
+      "forging_flail",
+      "forging_flamberge",
+      "forging_glaive",
+      "forging_greatsword",
+      "forging_halberd",
+      "forging_hammer",
+      "forging_lance",
+      "forging_longsword",
+      "forging_mace",
+      "forging_morning_star",
+      "forging_pike",
+      "forging_pitchfork",
+      "forging_poleaxe",
+      "forging_polehammer",
+      "forging_rapier",
+      "forging_scimitar",
+      "forging_spear",
+      "forging_spiked_mace",
+      "forging_stiletto",
+      "forging_straight_crooked_axe",
+      "forging_sword",
+      "forging_v_longsword",
+      "forging_v_sword",
+      "forging_war_hammer",
+      "forging_waraxe",
+      "forging_zweihander"
+    ]
+  ]
+}

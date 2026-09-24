@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "#": {
+      "tag": "c:rods/wooden"
+    },
+    "h": {
+      "item": "overarsenal:lance_haft"
+    }
+  },
+  "pattern": [
+    "p",
+    "#",
+    "h"
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:wooden_lance"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "overarsenal:steel_spearhead"
+    },
+    {
+      "item": "overgeared:steel_plate"
+    },
+    {
+      "item": "overarsenal:lance_haft"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "knightsheraldry:lance"
+  }
+}

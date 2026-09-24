@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:pommel"
+    },
+    "title": "End Them Rightly!",
+    "description": "Strike a foe with the finest blunt instrument ever crafted",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:weapon_head",
+  "criteria": {
+    "pommel_struck": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "type": "overarsenal:pommel"
+            }
+          }
+        }
+      }
+    }
+  }
+}

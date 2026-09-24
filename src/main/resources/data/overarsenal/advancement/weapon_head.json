@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:steel_hammer_head"
+    },
+    "title": "Headstrong",
+    "description": "Obtain your first steel weapon head",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:root",
+  "criteria": {
+    "weapon_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "overarsenal:steel_melee_weapon_heads"
+          }
+        ]
+      }
+    }
+  }
+}

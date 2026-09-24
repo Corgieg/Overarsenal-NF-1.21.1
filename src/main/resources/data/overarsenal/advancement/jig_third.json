@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:smithing_jig_iii"
+    },
+    "title": "Inspired Intricacies",
+    "description": "Obtain The Intricate Smithing Jig",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:jig_second",
+  "criteria": {
+    "intricate_jig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "overarsenal:smithing_jig_iii"
+          }
+        ]
+      }
+    }
+  }
+}

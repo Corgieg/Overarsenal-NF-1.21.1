@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:smithing_jig_ii"
+    },
+    "title": "Advancing The Craft",
+    "description": "Obtain The Advanced Smithing Jig",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:jig_first",
+  "criteria": {
+    "advanced_jig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "overarsenal:smithing_jig_ii"
+          }
+        ]
+      }
+    }
+  }
+}

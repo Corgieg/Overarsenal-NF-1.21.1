@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "overarsenal:pommel"
+      "id": "overarsenal:smithing_jig_i"
     },
-    "title": "End Them Rightly!",
-    "description": "Obtain the finest blunt instrument ever crafted",
+    "title": "Back To Basics",
+    "description": "Obtain The Basic Smithing Jig",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,12 +12,12 @@
   },
   "parent": "overarsenal:root",
   "criteria": {
-    "pommel": {
+    "basic_jig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "overarsenal:pommel"
+            "items": "overarsenal:smithing_jig_i"
           }
         ]
       }
