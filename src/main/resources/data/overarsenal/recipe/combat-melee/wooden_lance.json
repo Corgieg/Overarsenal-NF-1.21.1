@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "p": {
-      "tag": "minecraft:planks"
-    },
     "#": {
       "tag": "c:rods/wooden"
     },
-    "h": {
-      "item": "overarsenal:lance_haft"
+    "b": {
+      "item": "overarsenal:heartwood_blank"
     }
   },
   "pattern": [
-    "p",
     "#",
-    "h"
+    "#",
+    "b"
   ],
   "result": {
     "count": 1,

@@ -4,7 +4,7 @@
       "id": "overarsenal:steel_hammer_head"
     },
     "title": "Headstrong",
-    "description": "Obtain your first steel weapon head",
+    "description": "Obtain your first steel melee weapon head",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

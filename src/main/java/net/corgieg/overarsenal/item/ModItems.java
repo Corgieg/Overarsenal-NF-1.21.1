@@ -12,6 +12,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> HEATED_STEEL_NUGGET = ITEMS.register("heated_steel_nugget",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HEATED_STEEL_PLATE = ITEMS.register("heated_steel_plate",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HEATED_STEEL_ROD = ITEMS.register("heated_steel_rod",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ROD = ITEMS.register("steel_rod",
@@ -50,17 +52,21 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_PITCHFORK_HEAD = ITEMS.register("steel_pitchfork_head",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_WARDART_HEAD = ITEMS.register("steel_wardart_head",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BOW_ARM = ITEMS.register("bow_arm",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> LANCE_HAFT = ITEMS.register("lance_haft",
+    public static final DeferredItem<Item> HEARTWOOD_BLANK = ITEMS.register("heartwood_blank",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ARROW_HEAD_BODKIN = ITEMS.register("steel_arrow_head_bodkin",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ARROW_HEAD_BROAD = ITEMS.register("steel_arrow_head_broad",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ARROW_HEAD_SWALLOWTAIL = ITEMS.register("steel_arrow_head_swallowtail",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BARREL = ITEMS.register("steel_barrel",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POMMEL = ITEMS.register("pommel",
             () -> new PommelItem(new Item.Properties().stacksTo(16)));

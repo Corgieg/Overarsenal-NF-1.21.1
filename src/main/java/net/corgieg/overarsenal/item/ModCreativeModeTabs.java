@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         // Crafting Components
                         output.accept(ModItems.HEATED_STEEL_NUGGET);
+                        output.accept(ModItems.HEATED_STEEL_PLATE);
                         output.accept(ModItems.HEATED_STEEL_ROD);
                         output.accept(ModItems.STEEL_ROD);
                         output.accept(ModItems.POMMEL);
@@ -28,10 +29,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CROSSGUARD_SMALL);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.BOW_ARM);
-                        output.accept(ModItems.LANCE_HAFT);
+                        output.accept(ModItems.HEARTWOOD_BLANK);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BODKIN);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BROAD);
                         output.accept(ModItems.STEEL_ARROW_HEAD_SWALLOWTAIL);
+                        output.accept(ModItems.STEEL_BARREL);
                         // Tool Heads
                         output.accept(ModItems.STEEL_KNIFE_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
@@ -44,6 +46,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_WARAXE_HEAD);
                         output.accept(ModItems.STEEL_SPEARHEAD);
                         output.accept(ModItems.STEEL_PITCHFORK_HEAD);
+                        output.accept(ModItems.STEEL_WARDART_HEAD);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG_I);
                         output.accept(ModItems.SMITHING_JIG_II);

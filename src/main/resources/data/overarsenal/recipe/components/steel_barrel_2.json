@@ -1,0 +1,24 @@
+{
+  "type": "overgeared:forging",
+  "hammering": 10,
+  "has_quality": false,
+  "needs_minigame": true,
+  "quality_difficulty": "expert",
+  "key": {
+    "#": {
+      "item": "overarsenal:heated_steel_plate"
+    }
+  },
+  "has_polishing": true,
+  "need_quenching": true,
+  "pattern": [
+    "#  ",
+    " # ",
+    "  #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:steel_barrel"
+  },
+  "show_notification": false
+}

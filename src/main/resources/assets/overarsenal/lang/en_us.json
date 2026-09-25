@@ -1,5 +1,6 @@
 {
     "item.overarsenal.heated_steel_nugget": "Heated Steel Nugget",
+    "item.overarsenal.heated_steel_plate": "Heated Steel Plate",
     "item.overarsenal.heated_steel_rod": "Heated Steel Rod",
     "item.overarsenal.steel_rod": "Steel Rod",
     "item.overarsenal.smithing_jig_i": "Basic Smithing Jig",
@@ -19,12 +20,14 @@
     "item.overarsenal.steel_waraxe_head": "Steel Waraxe Head",
     "item.overarsenal.steel_spearhead": "Steel Spearhead",
     "item.overarsenal.steel_pitchfork_head": "Steel Pitchfork Head",
+    "item.overarsenal.steel_wardart_head": "Steel Wardart Head",
     "item.overarsenal.pole": "Pole",
     "item.overarsenal.bow_arm": "Bow Arm",
-    "item.overarsenal.lance_haft": "Lance Haft",
+    "item.overarsenal.heartwood_blank": "Heartwood Blank",
     "item.overarsenal.steel_arrow_head_bodkin": "Steel Bodkin Arrowhead",
     "item.overarsenal.steel_arrow_head_broad": "Steel Broadhead Arrowhead",
     "item.overarsenal.steel_arrow_head_swallowtail": "Steel Swallowtail Arrowhead",
+    "item.overarsenal.steel_barrel": "Steel Barrel",
     "creativetab.overarsenal.overarsenal_items" : "Overarsenal",
     "item.overarsenal.pommel": "Pommel"
 }
