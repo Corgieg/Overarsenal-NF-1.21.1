@@ -1,13 +1,13 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 100,
+  "cookingtime": 500,
   "experience": 0.0,
   "ingredient": {
-    "item": "knightsheraldry:arquebus"
+    "item": "knightsheraldry:handgonne"
   },
   "result": {
-    "count": 4,
-    "id": "overgeared:crude_steel"
+    "count": 2,
+    "id": "minecraft:netherite_scrap"
   }
 }

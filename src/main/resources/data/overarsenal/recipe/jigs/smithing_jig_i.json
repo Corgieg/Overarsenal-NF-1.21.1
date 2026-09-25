@@ -9,6 +9,7 @@
       "item": "overgeared:steel_ingot"
     }
   },
+  "has_polishing": false,
   "need_quenching": false,
   "pattern": [
     " i ",

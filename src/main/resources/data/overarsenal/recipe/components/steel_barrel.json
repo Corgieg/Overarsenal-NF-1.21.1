@@ -1,12 +1,13 @@
 {
   "type": "overgeared:forging",
-  "hammering": 10,
+  "hammering": 8,
   "has_quality": false,
   "needs_minigame": true,
-  "quality_difficulty": "expert",
+  "quality_difficulty": "master",
   "key": {
     "#": {
-      "item": "overarsenal:heated_steel_plate"
+      "item": "overarsenal:heated_steel_plate",
+      "requires_heated": true
     }
   },
   "has_polishing": true,

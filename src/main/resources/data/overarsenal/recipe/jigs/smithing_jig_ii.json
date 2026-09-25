@@ -12,6 +12,7 @@
       "item": "minecraft:quartz"
     }
   },
+  "has_polishing": false,
   "need_quenching": false,
   "pattern": [
     " i ",

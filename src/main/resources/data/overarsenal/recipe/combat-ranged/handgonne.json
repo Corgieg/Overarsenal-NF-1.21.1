@@ -3,11 +3,15 @@
   "category": "equipment",
   "pattern": [
     "b",
+    "n",
     "p"
   ],
   "key": {
     "b": {
       "item": "overarsenal:steel_barrel"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
     },
     "p": {
       "item": "overarsenal:pole"

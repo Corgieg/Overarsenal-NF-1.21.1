@@ -3,16 +3,16 @@
   "category": "equipment",
   "key": {
     "#": {
-      "tag": "c:rods/wooden"
+      "item": "minecraft:stick"
     },
-    "b": {
-      "item": "overarsenal:heartwood_blank"
+    "l": {
+      "tag": "overarsenal:stripped_hardwood_logs"
     }
   },
   "pattern": [
     "#",
-    "#",
-    "b"
+    "l",
+    "l"
   ],
   "result": {
     "count": 1,

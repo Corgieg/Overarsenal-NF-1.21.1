@@ -9,7 +9,13 @@
       "item": "overgeared:steel_plate"
     },
     {
-      "item": "overarsenal:heartwood_blank"
+      "item": "overgeared:steel_plate"
+    },
+    {
+      "tag": "overarsenal:stripped_hardwood_logs"
+    },
+    {
+      "tag": "overarsenal:stripped_hardwood_logs"
     }
   ],
   "result": {

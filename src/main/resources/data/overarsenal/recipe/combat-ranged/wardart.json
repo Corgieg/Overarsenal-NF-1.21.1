@@ -1,22 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "overgeared:crafting_shapeless",
   "category": "equipment",
-  "pattern": [
-    "x",
-    "#",
-    "a"
-  ],
-  "key": {
-    "x": {
+  "ingredients": [
+    {
       "item": "overarsenal:steel_wardart_head"
     },
-    "#": {
-      "item": "overarsenal:heartwood_blank"
+    {
+      "item": "minecraft:stick"
     },
-    "a": {
+    {
+      "item": "minecraft:stick"
+    },
+    {
       "item": "minecraft:feather"
     }
-  },
+  ],
   "result": {
     "count": 1,
     "id": "knightsheraldry:wardart"
