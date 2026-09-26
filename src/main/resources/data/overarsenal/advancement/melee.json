@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "overarsenal:steel_hammer_head"
+      "id": "overarsenal:steel_mace_head"
     },
-    "title": "Headstrong",
-    "description": "Obtain your first steel melee weapon head",
+    "title": "Dangerous When Refined",
+    "description": "Obtain steel formed for a melee weapon",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,7 +12,7 @@
   },
   "parent": "overarsenal:root",
   "criteria": {
-    "weapon_head": {
+    "melee": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

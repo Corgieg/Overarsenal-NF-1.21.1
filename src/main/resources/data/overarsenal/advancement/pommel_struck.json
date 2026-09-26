@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "overarsenal:weapon_head",
+  "parent": "overarsenal:melee",
   "criteria": {
     "pommel_struck": {
       "trigger": "minecraft:player_hurt_entity",

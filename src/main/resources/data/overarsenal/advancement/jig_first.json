@@ -4,7 +4,7 @@
       "id": "overarsenal:smithing_jig_i"
     },
     "title": "Back To Basics",
-    "description": "Obtain The Basic Smithing Jig",
+    "description": "Obtain the basic smithing jig",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "brb",
+    "#r#",
     "sts",
     " # "
   ],
   "key": {
     "#": {
       "tag": "overarsenal:stripped_hardwood_logs"
-    },
-    "b": {
-      "item": "overarsenal:bow_arm"
     },
     "r": {
       "item": "overarsenal:steel_rod"

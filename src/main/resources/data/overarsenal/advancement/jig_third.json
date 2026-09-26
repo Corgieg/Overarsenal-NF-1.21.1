@@ -4,7 +4,7 @@
       "id": "overarsenal:smithing_jig_iii"
     },
     "title": "Inspired Intricacies",
-    "description": "Obtain The Intricate Smithing Jig",
+    "description": "Obtain the intricate smithing jig",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

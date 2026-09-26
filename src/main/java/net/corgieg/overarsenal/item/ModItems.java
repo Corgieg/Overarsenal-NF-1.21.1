@@ -56,8 +56,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BOW_ARM = ITEMS.register("bow_arm",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ARROW_HEAD_BODKIN = ITEMS.register("steel_arrow_head_bodkin",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ARROW_HEAD_BROAD = ITEMS.register("steel_arrow_head_broad",

@@ -4,7 +4,7 @@
       "id": "overarsenal:smithing_jig_ii"
     },
     "title": "Advancing The Craft",
-    "description": "Obtain The Advanced Smithing Jig",
+    "description": "Obtain the advanced smithing jig",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

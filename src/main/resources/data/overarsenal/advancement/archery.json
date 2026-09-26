@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:steel_arrow_head_broad"
+    },
+    "title": "Long, Long Raaange",
+    "description": "Craft a powerful ranged weapon",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:melee",
+  "criteria": {
+    "craft_longbow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/longbow" }
+    },
+    "craft_heavy_crossbow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/heavy_crossbow" }
+    },
+    "craft_wardart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/wardart" }
+    }
+  },
+  "requirements": [
+    [
+      "craft_longbow",
+      "craft_heavy_crossbow",
+      "craft_wardart"
+    ]
+  ]
+}

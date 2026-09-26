@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "overarsenal:steel_barrel"
+    },
+    "title": "Craftsman of Death",
+    "description": "Craft a firearm with metal obtained from another dimension",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "overarsenal:archery",
+  "criteria": {
+    "craft_handgonne": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/handgonne" }
+    },
+    "craft_arquebus_1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/arquebus" }
+    },
+    "craft_arquebus_2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "overarsenal:combat-ranged/arquebus_2" }
+    }
+  },
+  "requirements": [
+    [
+      "craft_handgonne",
+      "craft_arquebus_1",
+      "craft_arquebus_2"
+    ]
+  ]
+}
