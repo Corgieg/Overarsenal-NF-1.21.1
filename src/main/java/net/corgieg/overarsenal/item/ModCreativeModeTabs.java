@@ -23,26 +23,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HEATED_STEEL_PLATE);
                         output.accept(ModItems.HEATED_STEEL_ROD);
                         output.accept(ModItems.STEEL_ROD);
-                        output.accept(ModItems.POMMEL);
                         output.accept(ModItems.POLE);
+                        output.accept(ModItems.STEEL_BARREL);
+                        output.accept(ModItems.POMMEL);
                         output.accept(ModItems.CROSSGUARD);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BODKIN);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BROAD);
                         output.accept(ModItems.STEEL_ARROW_HEAD_SWALLOWTAIL);
-                        output.accept(ModItems.STEEL_BARREL);
                         // Tool Heads
-                        output.accept(ModItems.STEEL_SHORT_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
+                        output.accept(ModItems.STEEL_SHORT_BLADE);
                         output.accept(ModItems.STEEL_RAPIER_BLADE);
                         output.accept(ModItems.STEEL_SWORD_BLADE_SINGLE);
                         output.accept(ModItems.STEEL_LONGSWORD_BLADE);
                         output.accept(ModItems.STEEL_GREATSWORD_BLADE);
+                        output.accept(ModItems.STEEL_PITCHFORK_HEAD);
                         output.accept(ModItems.STEEL_MACE_HEAD);
                         output.accept(ModItems.STEEL_HAMMER_HEAD);
                         output.accept(ModItems.STEEL_WARAXE_HEAD);
                         output.accept(ModItems.STEEL_POINT);
-                        output.accept(ModItems.STEEL_PITCHFORK_HEAD);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG_I);
                         output.accept(ModItems.SMITHING_JIG_II);
