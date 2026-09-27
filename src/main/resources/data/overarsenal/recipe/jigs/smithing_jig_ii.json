@@ -1,6 +1,6 @@
 {
   "type": "overgeared:forging",
-  "hammering": 6,
+  "hammering": 5,
   "has_quality": false,
   "needs_minigame": true,
   "quality_difficulty": "perfect",
@@ -16,7 +16,8 @@
   "need_quenching": false,
   "pattern": [
     " i ",
-    "i#i"
+    "i#i",
+    " i "
   ],
   "result": {
     "count": 1,

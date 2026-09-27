@@ -3,13 +3,13 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overarsenal:steel_wardart_head"
+      "item": "overarsenal:steel_point"
     },
     {
-      "item": "minecraft:stick"
+      "item": "overarsenal:pole"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:feather"
     },
     {
       "item": "minecraft:feather"

@@ -3,10 +3,10 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overarsenal:steel_knife_blade"
+      "item": "overarsenal:steel_short_blade"
     },
     {
-      "item": "overarsenal:crossguard_small"
+      "item": "overarsenal:crossguard"
     },
     {
       "item": "minecraft:stick"

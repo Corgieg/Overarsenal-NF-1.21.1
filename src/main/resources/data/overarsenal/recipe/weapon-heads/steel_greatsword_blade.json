@@ -1,7 +1,7 @@
 {
   "type": "overgeared:forging",
   "category": "TOOL_HEADS",
-  "hammering": 7,
+  "hammering": 6,
   "has_quality": true,
   "key": {
     "n": {

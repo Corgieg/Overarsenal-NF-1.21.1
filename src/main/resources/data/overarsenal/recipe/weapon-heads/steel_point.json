@@ -17,11 +17,12 @@
   "need_quenching": true,
   "pattern": [
     " n ",
-    "nrn"
+    "nnn",
+    " r "
   ],
   "result": {
     "count": 1,
-    "id": "overarsenal:steel_wardart_head"
+    "id": "overarsenal:steel_point"
   },
   "show_notification": false
 }

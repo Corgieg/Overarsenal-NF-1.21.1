@@ -3,13 +3,13 @@
   "category": "equipment",
   "ingredients": [
     {
-      "item": "overarsenal:steel_spearhead"
+      "item": "overarsenal:steel_point"
     },
     {
-      "item": "overgeared:steel_plate"
+      "item": "overgeared:steel_ingot"
     },
     {
-      "item": "overgeared:steel_plate"
+      "item": "overgeared:steel_ingot"
     },
     {
       "tag": "overarsenal:stripped_hardwood_logs"

@@ -3,7 +3,7 @@
   "hammering": 4,
   "has_quality": false,
   "needs_minigame": true,
-  "quality_difficulty": "expert",
+  "quality_difficulty": "perfect",
   "key": {
     "i": {
       "item": "overgeared:steel_ingot"
@@ -13,15 +13,12 @@
   "need_quenching": false,
   "pattern": [
     " i ",
-    "iii"
+    "i i",
+    " i "
   ],
   "result": {
     "count": 1,
     "id": "overarsenal:smithing_jig_i"
-  },
-  "result_failed": {
-    "count": 1,
-    "id": "overgeared:steel_ingot"
   },
   "show_notification": false
 }

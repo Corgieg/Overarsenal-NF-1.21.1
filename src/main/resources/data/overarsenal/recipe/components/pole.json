@@ -5,15 +5,15 @@
     "S": {
       "item": "minecraft:stick"
     },
-    "P": {
-      "item": "overgeared:steel_plate"
+    "I": {
+      "item": "overgeared:steel_ingot"
     },
     "L": {
       "item": "minecraft:leather"
     }
   },
   "pattern": [
-    " P ",
+    " I ",
     "LSL",
     " S "
   ],

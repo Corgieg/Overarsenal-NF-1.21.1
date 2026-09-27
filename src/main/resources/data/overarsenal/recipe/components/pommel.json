@@ -7,6 +7,7 @@
       "item": "overgeared:steel_nugget"
     }
   },
+  "has_polishing": true,
   "need_quenching": false,
   "pattern": [
     "nn",

@@ -24,7 +24,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SMITHING_JIG_III = ITEMS.register("smithing_jig_iii",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_KNIFE_BLADE = ITEMS.register("steel_knife_blade",
+    public static final DeferredItem<Item> STEEL_SHORT_BLADE = ITEMS.register("steel_short_blade",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_STILETTO_BLADE = ITEMS.register("steel_stiletto_blade",
             () -> new Item(new Item.Properties()));
@@ -38,8 +38,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CROSSGUARD_SMALL = ITEMS.register("crossguard_small",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_MACE_HEAD = ITEMS.register("steel_mace_head",
@@ -48,11 +46,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_WARAXE_HEAD = ITEMS.register("steel_waraxe_head",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_SPEARHEAD = ITEMS.register("steel_spearhead",
+    public static final DeferredItem<Item> STEEL_POINT = ITEMS.register("steel_point",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_PITCHFORK_HEAD = ITEMS.register("steel_pitchfork_head",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_WARDART_HEAD = ITEMS.register("steel_wardart_head",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> POLE = ITEMS.register("pole",
             () -> new Item(new Item.Properties()));

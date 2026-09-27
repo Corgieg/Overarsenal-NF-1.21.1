@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, OverarsenalMod.MODID);
 
     public static final Supplier<CreativeModeTab> OVERARSENAL_ITEMS_TAB = CREATIVE_MODE_TAB.register("overarsenal_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HEATED_STEEL_NUGGET.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SMITHING_JIG_III.get()))
                     .title(Component.translatable("creativetab.overarsenal.overarsenal_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         // Crafting Components
@@ -26,14 +26,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POMMEL);
                         output.accept(ModItems.POLE);
                         output.accept(ModItems.CROSSGUARD);
-                        output.accept(ModItems.CROSSGUARD_SMALL);
                         output.accept(ModItems.CROSSGUARD_LARGE);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BODKIN);
                         output.accept(ModItems.STEEL_ARROW_HEAD_BROAD);
                         output.accept(ModItems.STEEL_ARROW_HEAD_SWALLOWTAIL);
                         output.accept(ModItems.STEEL_BARREL);
                         // Tool Heads
-                        output.accept(ModItems.STEEL_KNIFE_BLADE);
+                        output.accept(ModItems.STEEL_SHORT_BLADE);
                         output.accept(ModItems.STEEL_STILETTO_BLADE);
                         output.accept(ModItems.STEEL_RAPIER_BLADE);
                         output.accept(ModItems.STEEL_SWORD_BLADE_SINGLE);
@@ -42,9 +41,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_MACE_HEAD);
                         output.accept(ModItems.STEEL_HAMMER_HEAD);
                         output.accept(ModItems.STEEL_WARAXE_HEAD);
-                        output.accept(ModItems.STEEL_SPEARHEAD);
+                        output.accept(ModItems.STEEL_POINT);
                         output.accept(ModItems.STEEL_PITCHFORK_HEAD);
-                        output.accept(ModItems.STEEL_WARDART_HEAD);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG_I);
                         output.accept(ModItems.SMITHING_JIG_II);
