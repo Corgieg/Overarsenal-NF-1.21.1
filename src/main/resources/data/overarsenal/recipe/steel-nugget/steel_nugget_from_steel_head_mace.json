@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "overarsenal:steel_head_mace"
+  },
+  "result": {
+    "count": 13,
+    "id": "overgeared:steel_nugget"
+  }
+}

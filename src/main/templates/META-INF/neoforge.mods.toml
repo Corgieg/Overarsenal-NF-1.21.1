@@ -36,7 +36,7 @@ displayName="${mod_name}" #mandatory
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="logo.png" #optional
 
 # A text field displayed in the mod UI
 #credits="" #optional
@@ -46,9 +46,7 @@ authors="Corgieg and SmokeytheFireBreathingDragon"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A compatability mod that integrates Knights & Heraldry weapons into Overgeard's smithing system.
-
-For 1.21.1 and NeoForge only.
+A compatability mod that integrates weapons from Knights & Heraldry into the Overgeared smithing system.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

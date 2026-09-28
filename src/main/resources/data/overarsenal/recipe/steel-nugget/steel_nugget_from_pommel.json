@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "overarsenal:pommel"
+  },
+  "result": {
+    "count": 4,
+    "id": "overgeared:steel_nugget"
+  }
+}

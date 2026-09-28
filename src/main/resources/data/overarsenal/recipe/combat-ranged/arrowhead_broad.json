@@ -1,0 +1,17 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "overarsenal:smithing_jig_ii",
+      "remainder": true
+    },
+    {
+      "item": "overgeared:steel_arrow_head"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:steel_arrowhead_broad"
+  }
+}

@@ -28,20 +28,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POMMEL);
                         output.accept(ModItems.CROSSGUARD);
                         output.accept(ModItems.CROSSGUARD_LARGE);
-                        output.accept(ModItems.STEEL_ARROW_HEAD_BODKIN);
-                        output.accept(ModItems.STEEL_ARROW_HEAD_BROAD);
-                        output.accept(ModItems.STEEL_ARROW_HEAD_SWALLOWTAIL);
+                        output.accept(ModItems.STEEL_ARROWHEAD_BODKIN);
+                        output.accept(ModItems.STEEL_ARROWHEAD_BROAD);
+                        output.accept(ModItems.STEEL_ARROWHEAD_SWALLOWTAIL);
                         // Tool Heads
-                        output.accept(ModItems.STEEL_STILETTO_BLADE);
-                        output.accept(ModItems.STEEL_SHORT_BLADE);
-                        output.accept(ModItems.STEEL_RAPIER_BLADE);
-                        output.accept(ModItems.STEEL_SWORD_BLADE_SINGLE);
-                        output.accept(ModItems.STEEL_LONGSWORD_BLADE);
-                        output.accept(ModItems.STEEL_GREATSWORD_BLADE);
-                        output.accept(ModItems.STEEL_PITCHFORK_HEAD);
-                        output.accept(ModItems.STEEL_MACE_HEAD);
-                        output.accept(ModItems.STEEL_HAMMER_HEAD);
-                        output.accept(ModItems.STEEL_WARAXE_HEAD);
+                        output.accept(ModItems.STEEL_BLADE_STILETTO);
+                        output.accept(ModItems.STEEL_BLADE_SHORT);
+                        output.accept(ModItems.STEEL_BLADE_RAPIER);
+                        output.accept(ModItems.STEEL_BLADE_SINGLE);
+                        output.accept(ModItems.STEEL_BLADE_LONG);
+                        output.accept(ModItems.STEEL_HEAD_PITCHFORK);
+                        output.accept(ModItems.STEEL_HEAD_MACE);
+                        output.accept(ModItems.STEEL_HEAD_HAMMER);
+                        output.accept(ModItems.STEEL_HEAD_WARAXE);
                         output.accept(ModItems.STEEL_POINT);
                         // Jigs
                         output.accept(ModItems.SMITHING_JIG_I);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "overarsenal:steel_blade_stiletto"
+  },
+  "result": {
+    "count": 10,
+    "id": "overgeared:steel_nugget"
+  }
+}

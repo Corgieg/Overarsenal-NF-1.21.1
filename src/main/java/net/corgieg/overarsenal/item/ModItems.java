@@ -18,50 +18,48 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_ROD = ITEMS.register("steel_rod",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> POMMEL = ITEMS.register("pommel",
+            () -> new PommelItem(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> POLE = ITEMS.register("pole",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_ARROWHEAD_BODKIN = ITEMS.register("steel_arrowhead_bodkin",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_ARROWHEAD_BROAD = ITEMS.register("steel_arrowhead_broad",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_ARROWHEAD_SWALLOWTAIL = ITEMS.register("steel_arrowhead_swallowtail",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BARREL = ITEMS.register("steel_barrel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLADE_SHORT = ITEMS.register("steel_blade_short",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLADE_SINGLE = ITEMS.register("steel_blade_single",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLADE_LONG = ITEMS.register("steel_blade_long",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLADE_STILETTO = ITEMS.register("steel_blade_stiletto",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_BLADE_RAPIER = ITEMS.register("steel_blade_rapier",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_HEAD_HAMMER = ITEMS.register("steel_head_hammer",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_HEAD_MACE = ITEMS.register("steel_head_mace",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_HEAD_PITCHFORK = ITEMS.register("steel_head_pitchfork",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_HEAD_WARAXE = ITEMS.register("steel_head_waraxe",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_POINT = ITEMS.register("steel_point",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SMITHING_JIG_I = ITEMS.register("smithing_jig_i",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SMITHING_JIG_II = ITEMS.register("smithing_jig_ii",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SMITHING_JIG_III = ITEMS.register("smithing_jig_iii",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_SHORT_BLADE = ITEMS.register("steel_short_blade",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_STILETTO_BLADE = ITEMS.register("steel_stiletto_blade",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_RAPIER_BLADE = ITEMS.register("steel_rapier_blade",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_SWORD_BLADE_SINGLE = ITEMS.register("steel_sword_blade_single",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_LONGSWORD_BLADE = ITEMS.register("steel_longsword_blade",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_GREATSWORD_BLADE = ITEMS.register("steel_greatsword_blade",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CROSSGUARD = ITEMS.register("crossguard",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CROSSGUARD_LARGE = ITEMS.register("crossguard_large",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_MACE_HEAD = ITEMS.register("steel_mace_head",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_HAMMER_HEAD = ITEMS.register("steel_hammer_head",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_WARAXE_HEAD = ITEMS.register("steel_waraxe_head",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_POINT = ITEMS.register("steel_point",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_PITCHFORK_HEAD = ITEMS.register("steel_pitchfork_head",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> POLE = ITEMS.register("pole",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_ARROW_HEAD_BODKIN = ITEMS.register("steel_arrow_head_bodkin",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_ARROW_HEAD_BROAD = ITEMS.register("steel_arrow_head_broad",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_ARROW_HEAD_SWALLOWTAIL = ITEMS.register("steel_arrow_head_swallowtail",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_BARREL = ITEMS.register("steel_barrel",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> POMMEL = ITEMS.register("pommel",
-            () -> new PommelItem(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

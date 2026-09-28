@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "overarsenal:steel_arrowhead_bodkin"
+  },
+  "result": {
+    "count": 7,
+    "id": "overgeared:steel_nugget"
+  }
+}

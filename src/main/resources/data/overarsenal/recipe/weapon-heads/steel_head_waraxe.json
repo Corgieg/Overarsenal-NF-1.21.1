@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:forging",
+  "category": "TOOL_HEADS",
+  "hammering": 4,
+  "has_quality": true,
+  "key": {
+    "n": {
+      "item": "overarsenal:heated_steel_nugget",
+      "requires_heated": true
+    },
+    "i": {
+      "item": "overgeared:heated_steel_ingot",
+      "requires_heated": true
+    }
+  },
+  "has_polishing": true,
+  "need_quenching": true,
+  "pattern": [
+    "iin",
+    "i  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:steel_head_waraxe"
+  },
+  "show_notification": false
+}

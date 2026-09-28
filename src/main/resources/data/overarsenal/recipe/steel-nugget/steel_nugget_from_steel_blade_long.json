@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "overarsenal:steel_blade_long"
+  },
+  "result": {
+    "count": 27,
+    "id": "overgeared:steel_nugget"
+  }
+}

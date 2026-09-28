@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "overarsenal:steel_rod"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "overgeared:steel_nugget"
+  }
+}

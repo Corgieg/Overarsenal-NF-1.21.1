@@ -1,0 +1,24 @@
+{
+  "type": "overgeared:fletching",
+  "tip": {
+    "tag": "minecraft:wool"
+  },
+  "shaft": {
+    "item": "minecraft:stick"
+  },
+  "feather": {
+    "item": "minecraft:feather"
+  },
+  "result": {
+    "count": 4,
+    "id": "knightsheraldry:cloth_arrow"
+  },
+  "result_lingering": {
+    "count": 4,
+    "id": "knightsheraldry:cloth_arrow"
+  },
+  "result_tipped": {
+    "count": 4,
+    "id": "knightsheraldry:cloth_arrow"
+  }
+}

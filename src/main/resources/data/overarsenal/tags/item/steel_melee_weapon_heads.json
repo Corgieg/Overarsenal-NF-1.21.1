@@ -1,16 +1,15 @@
 {
   "values": [
     "overgeared:steel_sword_blade",
-    "overarsenal:steel_greatsword_blade",
-    "overarsenal:steel_hammer_head",
-    "overarsenal:steel_short_blade",
-    "overarsenal:steel_longsword_blade",
-    "overarsenal:steel_mace_head",
-    "overarsenal:steel_pitchfork_head",
-    "overarsenal:steel_rapier_blade",
-    "overarsenal:steel_point",
-    "overarsenal:steel_stiletto_blade",
-    "overarsenal:steel_sword_blade_single",
-    "overarsenal:steel_waraxe_head"
+    "overarsenal:steel_blade_long",
+    "overarsenal:steel_blade_rapier",
+    "overarsenal:steel_blade_short",
+    "overarsenal:steel_blade_single",
+    "overarsenal:steel_blade_stiletto",
+    "overarsenal:steel_head_hammer",
+    "overarsenal:steel_head_mace",
+    "overarsenal:steel_head_pitchfork",
+    "overarsenal:steel_head_waraxe",
+    "overarsenal:steel_point"
   ]
 }
