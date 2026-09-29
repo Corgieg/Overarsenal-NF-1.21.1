@@ -1,8 +1,11 @@
 package net.corgieg.overarsenal.item;
 
 import net.corgieg.overarsenal.OverarsenalMod;
+import net.corgieg.overarsenal.item.custom.HammerItem;
 import net.corgieg.overarsenal.item.custom.PommelItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -60,6 +63,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SMITHING_JIG_III = ITEMS.register("smithing_jig_iii",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<HammerItem> STEEL_HAMMER = ITEMS.register("steel_hammer",
+            () -> new HammerItem(Tiers.IRON, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(Tiers.IRON, 7F, -3.5f))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -46,7 +46,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SMITHING_JIG_I);
                         output.accept(ModItems.SMITHING_JIG_II);
                         output.accept(ModItems.SMITHING_JIG_III);
-
+                        // Side Pieces
+                        output.accept(ModItems.STEEL_HAMMER);
                     }).build());
 
 public static void register(IEventBus eventBus) {

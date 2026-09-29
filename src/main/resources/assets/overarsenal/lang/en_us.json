@@ -24,6 +24,8 @@
     "item.overarsenal.steel_arrowhead_bodkin": "Steel Bodkin Arrowhead",
     "item.overarsenal.steel_arrowhead_broad": "Steel Broadhead Arrowhead",
     "item.overarsenal.steel_arrowhead_swallowtail": "Steel Swallowtail Arrowhead",
-    "creativetab.overarsenal.overarsenal_items" : "Overarsenal"
+    "creativetab.overarsenal.overarsenal_items" : "Overarsenal",
+
+    "item.overarsenal.steel_hammer": "Steel Hammer"
 
 }
