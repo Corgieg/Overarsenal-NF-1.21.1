@@ -2,12 +2,12 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "cookingtime": 200,
-  "experience": 0.0,
+  "experience": 0.1,
   "ingredient": {
-    "item": "knightsheraldry:falchion"
+    "tag": "overarsenal:steel_blastable_for_nuggets"
   },
   "result": {
     "count": 1,
-    "id": "overgeared:crude_steel"
+    "id": "overgeared:steel_nugget"
   }
 }

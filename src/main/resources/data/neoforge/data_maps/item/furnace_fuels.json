@@ -1,0 +1,13 @@
+{
+  "values": {
+    "knightsheraldry:longbow": {
+      "burn_time": 300
+    },
+    "knightsheraldry:wooden_lance": {
+      "burn_time": 300
+    },
+    "knightsheraldry:heavy_crossbow": {
+      "burn_time": 300
+    }
+  }
+}

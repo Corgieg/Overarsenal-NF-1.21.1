@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "overarsenal:melee",
+  "parent": "overarsenal:weapon_head",
   "criteria": {
     "craft_longbow": {
       "trigger": "minecraft:recipe_crafted",
