@@ -1,6 +1,7 @@
 package net.corgieg.overarsenal.event;
 
 import net.corgieg.overarsenal.OverarsenalMod;
+import net.corgieg.overarsenal.item.custom.ExcavatorItem;
 import net.corgieg.overarsenal.item.custom.HammerItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
@@ -34,6 +35,33 @@ public class ModEvents {
             for(BlockPos pos : HammerItem.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer))
             {
                 if(pos == initialBlockPos || !hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos)))
+                {
+                    continue;
+                }
+
+                HARVESTED_BLOCKS.add(pos);
+                serverPlayer.gameMode.destroyBlock(pos);
+                HARVESTED_BLOCKS.remove(pos);
+            }
+        }
+    }
+    @SubscribeEvent
+    public static void onExcavatorUsage(BlockEvent.BreakEvent event)
+    {
+        Player player = event.getPlayer();
+        ItemStack mainHandItem = player.getMainHandItem();
+
+        if(mainHandItem.getItem() instanceof ExcavatorItem excavator && player instanceof ServerPlayer serverPlayer)
+        {
+            BlockPos initialBlockPos = event.getPos();
+            if(HARVESTED_BLOCKS.contains(initialBlockPos))
+            {
+                return;
+            }
+
+            for(BlockPos pos : ExcavatorItem.getBlocksToBeDestroyed(1, initialBlockPos, serverPlayer))
+            {
+                if(pos == initialBlockPos || !excavator.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos)))
                 {
                     continue;
                 }

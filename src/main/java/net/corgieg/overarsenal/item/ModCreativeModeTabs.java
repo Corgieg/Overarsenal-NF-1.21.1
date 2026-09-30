@@ -48,6 +48,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SMITHING_JIG_III);
                         // Side Pieces
                         output.accept(ModItems.STEEL_HAMMER);
+                        output.accept(ModItems.STEEL_EXCAVATOR);
                     }).build());
 
 public static void register(IEventBus eventBus) {
