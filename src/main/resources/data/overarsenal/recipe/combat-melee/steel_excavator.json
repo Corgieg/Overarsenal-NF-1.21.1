@@ -1,0 +1,19 @@
+{
+  "type": "overgeared:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "overarsenal:steel_excavator_head"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "overarsenal:pommel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "overarsenal:steel_excavator"
+  }
+}

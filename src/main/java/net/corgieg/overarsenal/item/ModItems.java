@@ -66,12 +66,15 @@ public class ModItems {
     public static final DeferredItem<Item> SMITHING_JIG_III = ITEMS.register("smithing_jig_iii",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<HammerItem> STEEL_HAMMER = ITEMS.register("steel_hammer",
-            () -> new HammerItem(Tiers.IRON, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(Tiers.IRON, 9F, -2.8f))));
+            () -> new HammerItem(ModToolTiers.BISMUTH, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 9F, -2.8f))));
     public static final DeferredItem<ExcavatorItem> STEEL_EXCAVATOR = ITEMS.register("steel_excavator",
-            () -> new ExcavatorItem(Tiers.IRON, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(Tiers.IRON, 7F, -3.5f))));
-
+            () -> new ExcavatorItem(ModToolTiers.BISMUTH, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.BISMUTH, 7F, -3.5f))));
+    public static final DeferredItem<Item> STEEL_HAMMER_HEAD = ITEMS.register("steel_hammer_head",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_EXCAVATOR_HEAD = ITEMS.register("steel_excavator_head",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
